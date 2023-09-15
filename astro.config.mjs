@@ -9,7 +9,7 @@ import relativeLinks from "astro-relative-links";
 export default defineConfig({
   integrations: [relativeLinks(), tailwind()],
   site: "https://JRack92.github.io",
-  base: "/AstroClon-Nuwinds"
+  base: "./AstroClon-Nuwinds"
 
 });
 
