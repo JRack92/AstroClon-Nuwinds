@@ -8,6 +8,8 @@ import relativeLinks from "astro-relative-links";
 // https://astro.build/config
 export default defineConfig({
   integrations: [relativeLinks(), tailwind()],
+  site: "https://JRack92.github.io",
+  base: "/AstroClon-Nuwinds"
 
 });
 
