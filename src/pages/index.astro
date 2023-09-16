@@ -1,8 +1,19 @@
 ---
-import Launches from "../components/Launches.astro";
 import Layout from "../layouts/Layout.astro";
+
+import Hero from "../components/Hero.astro";
+import Services from "../components/ServicesHome.astro";
+import Portfolio from '../components/PortfolioHome.astro';
+import GeneralText from '../components/GeneralTextHome.astro';
+import Clients from '../components/ClientsHome.astro';
+import ApplyMeeting from '../components/ApplyMeeting.astro';
 ---
 
-<Layout title="SpaceX Launches">
-  <Launches />
+<Layout title="Home" description="">
+  <Hero />
+  <Services />
+  <Portfolio />
+  <GeneralText />
+  <Clients />
+  <ApplyMeeting />
 </Layout>
