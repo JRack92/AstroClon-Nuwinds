@@ -31,7 +31,9 @@ h6 {
     font-family: 'Poppins', sans-serif;
 }
 
-p{
+p,
+a,
+span {
     font-family: 'Open Sans', sans-serif;
     color: var(--primary);
 }
@@ -47,5 +49,4 @@ p{
 a:hover {
     text-decoration: none;
     color: var(--accent);
-  }
-  
+}

@@ -1,33 +1,216 @@
 ---
 import HeaderButton from "./HeaderButton.astro";
+import LanguageButton from "./LanguageButton.astro";
+import { Image } from "astro:assets";
+import { HeaderLogo } from "../util/SrcElements";
+import { WebSite } from "../util/Urls";
 ---
 
-<header class="">
-  <nav
+<header class="absolute top-0 left-0 w-full">
+  <!-- <nav
     class="flex flex-col items-center justify-between w-full text-center md:flex-row"
+  > -->
+  <nav
+    class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:p-6"
+    aria-label="Global"
   >
-    <div class=""></div>
-    <!-- <HeaderButton href="/">
-      <svg
-        slot="before"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+    <a href={WebSite()}>
+      <Image
+        class="w-auto max-h-[55px]"
+        src={HeaderLogo()}
+        alt="Logo Nuwinds"
+        height="55"
+      />
+    </a>
+
+    <!-- Pantalla gandes -->
+    <div class="hidden lg:flex lg:gap-x-6">
+      <HeaderButton href="/">HOME</HeaderButton>
+
+      <HeaderButton href="/">ABOUT</HeaderButton>
+
+      <HeaderButton href="/">SERVICES</HeaderButton>
+
+      <HeaderButton href="/">PORTFOLIO</HeaderButton>
+
+      <HeaderButton href="/">CONTACT</HeaderButton>
+    </div>
+
+    <!-- Celulares -->
+    <div class="flex gap-5 lg:hidden">
+      <LanguageButton language="EN" />
+      <LanguageButton language="ES" />
+      <button
+        id="ShowMenuButton"
+        type="button"
+        class="inline-flex items-center justify-center rounded-md"
       >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <path
-          d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z"
-        ></path>
-        <path d="M12 16v.01"></path>
-        <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"
-        ></path>
-      </svg>
-      Ultimos lanzamientos
-    </HeaderButton> -->
+        <svg
+          class="h-6 w-6"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="100"
+          height="100"
+          viewBox="0,0,256,256"
+          aria-hidden="true"
+        >
+          <g
+            fill="#ffffff"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+            ><g transform="scale(5.12,5.12)"
+              ><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"
+              ></path></g
+            ></g
+          >
+        </svg>
+      </button>
+    </div>
+
+    <!-- Menu contact -->
+    <div class="hidden lg:flex lg:gap-12">
+      <div class="flex gap-3">
+        <LanguageButton language="EN" />
+        <LanguageButton language="ES" />
+      </div>
+      <button
+        type="button"
+        class="inline-flex items-center justify-center rounded-md"
+      >
+        <svg
+          class="h-6 w-6"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="100"
+          height="100"
+          viewBox="0,0,256,256"
+          aria-hidden="true"
+        >
+          <g
+            fill="#ffffff"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+            ><g transform="scale(5.12,5.12)"
+              ><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"
+              ></path></g
+            ></g
+          >
+        </svg>
+      </button>
+    </div>
   </nav>
+
+  <!-- Menu Celulares -->
+  <div
+    id="MobilMenu"
+    class="hidden p-3 lg:p-5 lg:hidden"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="fixed inset-0 z-10"></div>
+    <div
+      class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-500 p-3 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+    >
+      <div class="flex items-center justify-between">
+        <a href={WebSite()}>
+          <Image
+            class="w-auto max-h-[55px]"
+            src={HeaderLogo()}
+            alt="Logo Nuwinds"
+            height="55"
+          />
+        </a>
+        <button
+          id="CloseMenuButton"
+          type="button"
+          class="-m-2.5 rounded-md p-2.5 text-gray-700"
+        >
+          <svg
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0,0,256,256"
+          >
+            <g
+              fill="#ffffff"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+              ><g transform="scale(5.12,5.12)"
+                ><path
+                  d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z"
+                ></path></g
+              ></g
+            >
+          </svg>
+        </button>
+      </div>
+
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="py-6 flex flex-col items-start">
+            <HeaderButton href="/">HOME</HeaderButton>
+            <HeaderButton href="/">ABOUT</HeaderButton>
+            <HeaderButton href="/">SERVICES</HeaderButton>
+            <HeaderButton href="/">PORTFOLIO</HeaderButton>
+            <HeaderButton href="/">CONTACT</HeaderButton>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
+
+<script>
+  const showMenuButton = document.getElementById("ShowMenuButton");
+  const closeMenuButton = document.getElementById("CloseMenuButton");
+  const mobileMenu = document.getElementById("MobilMenu");
+
+  showMenuButton?.addEventListener("click", ShowMenuClick);
+  closeMenuButton?.addEventListener("click", CloseMenuClick);
+
+  function ShowMenuClick() {
+    mobileMenu?.classList.remove("hidden");
+  }
+
+  function CloseMenuClick() {
+    mobileMenu?.classList.add("hidden");
+  }
+</script>
