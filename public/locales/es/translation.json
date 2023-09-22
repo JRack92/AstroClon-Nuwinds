@@ -1,0 +1,290 @@
+{
+    "pagesMenu": ["Inicio", "Quienes Somos", "Servicios", "Portafolio", "Contact"],
+    "home": {
+        "PageTitle": "Inicio",
+        "PageDescription": "Here is the description of my awesome website!",
+        "hero": {
+            "title": "Unleash your business",
+            "subtitle": "Desarrolla estrategias de marketing y publicidad que te lleven a un siguiente nivel.",
+            "cta": "Cuéntanos tu proyecto"
+        }
+    },
+    "service": [{
+            "Name": "Estrategia",
+            "PageDescription": "Servicios de Estrategia Nuwinds: Eleva tu negocio con soluciones basadas en datos, investigación de mercado, branding y tácticas de crecimiento dinámico.",
+            "Priority": 1,
+            "Info": "Analizamos los datos de tu negocio para crear estrategias personalizadas que aumenten la visibilidad de tu marca hacia tu público objetivo. Además, contamos con un enfoque orientado a los resultados para  alcanzar el máximo retorno de tu inversión.",
+            "PageTitle": "Servicio de gestión estratégica",
+            "Img": "Strategy.jpg",
+            "AltImg": "Proceso estratégico",
+            "FeaturedServices": [{
+                    "Title": "Análisis estratégico",
+                    "Info": "Realizamos investigación de mercado y benchmarking para encontrar las ventajas competitivas, optimizar el rendimiento y medir el crecimiento de las estrategias B2B y B2C de cada marca."
+                },
+                {
+                    "Title": "Sinergia en acciones de marketing",
+                    "Info": "Unimos la creación estratégica de marcas con el perfeccionamiento del customer journey, la implementación del inbound y outbound marketing y la mejora de la experiencia del cliente (CX-UX) para obtener resultados excepcionales."
+                },
+                {
+                    "Title": "Crecimiento dinámico",
+                    "Info": "Mediante la aplicación de la metodología Agile y la formulación de estrategias que integran los diferentes canales de distribución, apoyamos un ritmo de trabajo flexible que se ajusta a las dinámicas de crecimiento."
+                }
+            ],
+            "ListServicesTitle": "Servicios de estrategia",
+            "ListServices": [
+                "Visibilidad empresarial",
+                "Estudios de mercado y evaluación benchmarking",
+                "Branding estratégico y retorno de marca",
+                "Inbound y outbound marketing",
+                "CX-UX a otro nivel",
+                "Estrategias en canales de distribución",
+                "Marketing omnicanal",
+                "Metodología Agile marketing ",
+                "Optimización en la relación con los clientes",
+                "Maximización del ROI"
+            ]
+        },
+        {
+            "Name": "Creatividad",
+            "PageDescription": "Servicios Creativos Nuwinds: Diseño avanzado y storytelling poderoso para elevar tu marca. Creatividad, SEO y estrategias digitales en un paquete.",
+            "Priority": 2,
+            "Info": "Diseñamos contenidos persuasivos y de vanguardia para campañas de marketing que cautiven a tu audiencia de forma duradera.",
+            "PageTitle": "Servicio de gestión creativa",
+            "Img": "Creative.jpg",
+            "AltImg": "Creative Imagen",
+            "FeaturedServices": [{
+                    "Title": "Desarrollo creativo de marcas",
+                    "Info": "Somos expertos en la dirección de arte y el diseño creativo. Transformamos la percepción de tu marca con visuales de vanguardia que marcan la diferencia."
+                },
+                {
+                    "Title": "Redacción creativa y efectiva",
+                    "Info": "Creamos textos para estrategias de marketing  B2B y B2C, tales como Case Studies o Whitepapers, que incorporan narrativas convincentes y responden a los objetivos comunicativos de cada marca."
+                },
+                {
+                    "Title": "Máximo impacto en línea",
+                    "Info": "Potenciamos tu visibilidad mediante estrategias de SEO y la gestión oportuna de redes sociales para aumentar el tráfico orgánico y mantener la relevancia de tu marca en línea."
+                }
+            ],
+            "ListServicesTitle": "Servicios creativos",
+            "ListServices": [
+                "Diseño de vanguardia",
+                "Storytelling envolvente",
+                "Diseños únicos",
+                "Innovación en contenidos",
+                "Campañas innovadoras",
+                "Creación y promoción de marcas",
+                "Redacción B2B y B2C",
+                "Desarrollo de casos de éxito",
+                "Whitepapers impactantes",
+                "Estrategias SEO y gestión de redes sociales"
+            ]
+        },
+        {
+            "Name": "Publicidad",
+            "PageDescription": "Servicios de Publicidad Nuwinds: Campañas para potenciar tu marca con mensajes impactantes, segmentación exacta y expertise multiplataforma.",
+            "Priority": 3,
+            "Info": "Optimizamos campañas publicitarias que alcancen a tu público objetivo y mejoren el reconocimiento de tu marca. A través de una segmentación precisa y mensajes persuasivos, logramos un máximo impacto.",
+            "PageTitle": "Servicio de publicidad",
+            "Img": "Advertising.jpg",
+            "AltImg": "Advertising Imagen",
+            "FeaturedServices": [{
+                    "Title": "Publicidad estratégica",
+                    "Info": "Creamos campañas de publicidad que se alineen con los objetivos estratégicos de tu negocio, fortalezcan el reconocimiento de tu marca y generen los resultados esperados."
+                },
+                {
+                    "Title": "Mejor difusión de marca",
+                    "Info": "Utilizamos una estrategia multiplataforma con conocimientos UX y UI para elevar la presencia de tu marca y proporcionar una experiencia del usuario fluida y coherente."
+                },
+                {
+                    "Title": "Mayor exposición del mensaje",
+                    "Info": "Ampliamos la exposición de tu marca con un mensaje poderoso que pueda conectar fácilmente con la audiencia que deseas alcanzar."
+                }
+            ],
+            "ListServicesTitle": "Servicios publicitarios",
+            "ListServices": [
+                "Campañas publicitarias estratégicas",
+                "Mensajes convincentes",
+                "Publicidad dirigida",
+                "Optimización para lograr el máximo impacto",
+                "Estrategia multiplataforma",
+                "Experiencia UX y UI",
+                "Mayor visibilidad del mensaje",
+                "Estrategias para potenciar el engagement",
+                "Ampliación de la audiencia"
+            ]
+        },
+        {
+            "Name": "Medios",
+            "PageDescription": "Servicios de Medios Nuwinds: Planificación y compra experta con ubicaciones optimizadas. Usamos datos y tecnología XR para maximizar el impacto publicitario.",
+            "Priority": 4,
+            "Info": "Planificamos la adquisición de espacios publicitarios en medios que posibilitan una conexión efectiva con tu público objetivo. Además, ejecutamos una distribución optimizada de los anuncios y llevamos a cabo un análisis y seguimiento exhaustivo de su desempeño.",
+            "PageTitle": "Servicio de gestión de medios",
+            "Img": "Media.jpg",
+            "AltImg": "Media Imagen",
+            "FeaturedServices": [{
+                    "Title": "Publicidad dirigida",
+                    "Info": "Mediante estrategias de Paid Search, Paid Social, Display & Programmatic advertising, generamos un tráfico segmentado que optimiza las conversiones, impulsando así el crecimiento de tu negocio y fortaleciendo tu presencia en línea."
+                },
+                {
+                    "Title": "Campañas innovadoras",
+                    "Info": "Realizamos el remarketing y la distribución creativa del contenido a través de diferentes medios publicitarios que permitan llegar al público objetivo. Además, proporcionamos experiencias en nuevos medios de tecnología XR que promuevan interacciones memorables con tu marca."
+                },
+                {
+                    "Title": "Análisis de datos para optimización",
+                    "Info": "Realizamos un análisis exhaustivo de las campañas y los datos web para tomar decisiones que optimicen el rendimiento y logren un mejor resultado."
+                }
+            ],
+            "ListServicesTitle": "Servicios relacionados con la gestión de medios",
+            "ListServices": [
+                "Planificación integral de medios",
+                "Compra de medios",
+                "Análisis de datos",
+                "Asignación y distribución optimizada del contenido",
+                "Publicidad en redes sociales y buscadores",
+                "Publicidad en la red de display",
+                "Programmatic Advertising",
+                "Publicidad programática",
+                "Remarketing y Content Syndication",
+                "Nuevos medios - Tecnologías XR",
+                "Seguimiento del rendimiento de las campañas",
+                "Optimización de la inversión en medios"
+            ]
+        },
+        {
+            "Name": "Producción",
+            "PageDescription": "Servicios de Producción Nuwinds: Impulsa tu marca con experiencias VR/AR, multimedia, eventos y marketing experiencial experto.",
+            "Priority": 5,
+            "Info": "Creamos experiencias fascinantes usando la realidad extendida (XR) para dar rienda suelta al potencial de tu marca. Satisfacemos tus necesidades ya que proporcionamos soluciones integrales de producción.",
+            "PageTitle": "Servicio de producción",
+            "Img": "Production.jpg",
+            "AltImg": "Production Imagen",
+            "FeaturedServices": [{
+                    "Title": "Marketing experiencial",
+                    "Info": "Aumentamos el impacto de tu marca con campañas de marketing B2B y B2C que usan experiencias inmersivas para cautivar a tu público objetivo como nunca antes."
+                },
+                {
+                    "Title": "Experiencias sin límites",
+                    "Info": "Potenciamos tu marca utilizando experiencias de realidad virtual (RV), realidad aumentada (RA) y realidad mixta (RM) para contar historias de manera más impactante y conectar emocionalmente con tu público."
+                },
+                {
+                    "Title": "Aceleradores de crecimiento exponencial",
+                    "Info": "Producimos programas de socios y fidelización para el crecimiento exponencial de tu negocio. Entregamos campañas de marketing listas para usar (o Campaign-in a-box) y kits de herramientas que contienen todo lo necesario para lograr el éxito."
+                }
+            ],
+            "ListServicesTitle": "Servicios relacionados con la gestión de medios",
+            "ListServices": [
+                "Experiencias multimedia",
+                "Integración de tecnología inmersiva (RV/RA/RM)",
+                "Creación de contenidos digitales atractivos",
+                "Estrategias de marketing experiencial",
+                "Formación en línea y seminarios web atractivos",
+                "Programas de socios y fidelización",
+                "Campaign in-a-box"
+            ]
+        },
+        {
+            "Name": "Programación",
+            "PageDescription": "Servicios de Programación Nuwinds: Desarrollo especializado de sitios web y apps, soluciones impulsadas por IA y diseños orientados a la conversión.",
+            "Priority": 6,
+            "Info": "Desarrollamos servicios de programación especializada para crear y optimizar tus activos digitales. Esto incluye la creación de sitios web personalizados, integraciones y soluciones robustas que te permitan alcanzar los objetivos de marketing propuestos.",
+            "PageTitle": "Servicio de programación",
+            "Img": "Coding.jpg",
+            "AltImg": "Coding Imagen",
+            "FeaturedServices": [{
+                    "Title": "Expertos en desarrollo digital",
+                    "Info": "Creamos soluciones dinámicas para el desarrollo web, producimos aplicaciones móviles con diseño intuitivo y ejecutamos estrategias efectivas para el comercio electrónico que impulsen las ventas de tu negocio."
+                },
+                {
+                    "Title": "Desarrollos orientados a la conversión",
+                    "Info": "Diseñamos landing pages atractivas, aplicativos web interactivos, como configuradores de servicios que brinden experiencias personalizadas para aumentar tus conversiones. Además, nuestros especialistas en la gestión de CRMs se encargan de automatizar todo el funnel de marketing y ventas."
+                },
+                {
+                    "Title": "Desarrollo de vanguardia",
+                    "Info": "Creamos Apps de marketing basadas en IA y aprendizaje automático que optimizan las estrategias de marketing con el fin de lograr un máximo impacto, eficiencia y crecimiento en el entorno digital."
+                }
+            ],
+            "ListServicesTitle": "Servicios de programación",
+            "ListServices": [
+                "Servicios de programación especializada",
+                "Desarrollo web personalizado",
+                "Soluciones de integración",
+                "Soluciones digitales avanzadas",
+                "Desarrollo de aplicaciones móviles",
+                "Estrategias para e-commerces y e-marketplaces",
+                "Landing pages atractivas",
+                "Interactive Product & Service Configurators",
+                "Configuradores interactivos de productos y servicios",
+                "Campañas de marketing por correo electrónico",
+                "Manejo profesional de CRMs para temas de marketing"
+            ]
+        },
+        {
+            "Name": "Relaciones Públicas",
+            "PageDescription": "Servicios de PR Nuwinds: Expertos en establecer relaciones con medios de comunicación, gestionar la reputación de tu marca y amplificar tu mensaje.",
+            "Priority": 7,
+            "Info": "Desde el manejo de medios hasta la gestión de la reputación y narrativa de marca, fortalecemos la percepción de tu audiencia  y la credibilidad de tu negocio a través de soluciones estratégicas a tu medida.",
+            "PageTitle": "Servicio de gestión en relaciones públicas",
+            "Img": "PublicRelations.jpg",
+            "AltImg": "PublicRelations Imagen",
+            "FeaturedServices": [{
+                    "Title": "Marketing de influencers",
+                    "Info": "Aprovechamos el potencial del marketing de influencers para establecer conexiones auténticas y generar un compromiso profundo con tu público objetivo. Gracias a nuestra experiencia y pensamiento innovador, ideamos estrategias que aumentan la autoridad e influencia de nuestros clientes."
+                },
+                {
+                    "Title": "Guardianes de marca",
+                    "Info": "Protegemos la imagen de tu marca mediante una gestión de crisis y reputación efectiva. Además, usamos el poder de la cobertura mediática para lograr una amplia exposición y reforzar la credibilidad de tu negocio."
+                },
+                {
+                    "Title": "Posicionamiento de marca",
+                    "Info": "Nos destacamos en la creación de Whitepapers que exhiban tu experiencia e influyan en la toma de decisiones. Mejora tu estrategia de comunicación corporativa con contenidos persuasivos que atraigan y conecten con tu audiencia de manera efectiva."
+                }
+            ],
+            "ListServicesTitle": "Servicios de relaciones públicas",
+            "ListServices": [
+                "Desarrollo de narrativa y tono de marca",
+                "Relación y exposición con medios masivos y especializados",
+                "Reputación y gestión de crisis",
+                "Storytelling atractivo",
+                "Posicionamiento de marca",
+                "Estrategias de marketing de influencers",
+                "Estrategia de comunicación corporativa",
+                "Desarrollo de Whitepapers de valor",
+                "Historias de éxito impactantes"
+            ]
+        },
+        {
+            "Name": "Gestión de Eventos",
+            "PageDescription": "Servicio Gestión de Eventos Nuwinds: Expertos en la planificación, la elección de lugares y del cuidado de los asistentes para experiencias inolvidables.",
+            "Priority": 8,
+            "Info": "Producimos eventos inolvidables mediante una planificación meticulosa, coordinación creativa y ejecución precisa. Convertimos tu visión en realidad, asegurando una ejecución impecable para ofrecer experiencias memorables.",
+            "PageTitle": "Servicio de gestión de eventos",
+            "Img": "Events.jpg",
+            "AltImg": "Events Imagen",
+            "FeaturedServices": [{
+                    "Title": "Planificación, búsqueda y ejecución",
+                    "Info": "Nos destacamos por la búsqueda de locaciones y espacios perfectos que se ajusten a las necesidades específicas de cada evento. Nos encargamos de la logística de principio a fin para que todos los detalles de tu evento sean un éxito total."
+                },
+                {
+                    "Title": "Diseño integral del evento",
+                    "Info": "Contamos con una amplia experiencia en el diseño de eventos. Desde la conceptualización, la creación de piezas creativas y el manejo de servicios de inscripción hasta la gestión de locaciones y reservas para que el evento sea excepcional en toda su ejecución."
+                },
+                {
+                    "Title": "Excelencia de principio a fin",
+                    "Info": "Proporcionamos obsequios personalizados a los asistentes y gestionamos la contratación de ponentes y artistas invitados. Además, realizamos un seguimiento oportuno a los participantes del evento para conocer el impacto real de acuerdo a los objetivos de la actividad."
+                }
+            ],
+            "ListServicesTitle": "Servicios de gestión de eventos",
+            "ListServices": [
+                "Búsqueda de locaciones",
+                "Servicios de inscripción",
+                "Conceptualización y diseño del evento",
+                "Producción de la sesión general",
+                "Planificación de la agenda del evento",
+                "Gestión de hoteles y reservas",
+                "Regalos para los asistentes",
+                "Contratación de conferencistas y artistas invitados",
+                "Seguimiento de los asistentes tras el evento"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { type Service, type FeaturedService } from "../../types/api";
+import type { GetStaticPaths } from "astro";
+import Layout from "../../layouts/Layout.astro";
+
+changeLanguage("en");
+
+//Genera los las archivos de las paginas con el ID de cada uno de los elementos
+export async function getStaticPaths() {
+    const services = t("service", { returnObjects: true }) as Array<Service>;
+    return services.map((serviceTemp) => ({
+        params: { name: serviceTemp.Name },
+    }));
+}
+const listServices = t("service", { returnObjects: true }) as Array<Service>;
+const { name } = Astro.params;
+let service;
+if (name) {
+    service = listServices.find((serviceTemp) => {
+        return serviceTemp.Name === name;
+    });
+}
+---
+
+<Layout title=`${service?.PageTitle}` description=`${service?.PageDescription}`>
+  <article class="flex gap-y-4 flex-col">
+    <img
+      class="w-52 h-auto"
+      src={`/img/Services/${service?.Img}`}
+      alt={service?.AltImg}
+    />
+    <h2 class="text-4xl text-white font-bold">{service?.Name}</h2>
+  </article>
+</Layout>

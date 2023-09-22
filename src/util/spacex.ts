@@ -1,4 +1,10 @@
-import { type APISpaceXResponse, type Doc } from "../types/api";
+import {
+  type APISpaceXResponse,
+  type Doc,
+  type Service,
+  type FeaturedService,
+} from "../types/api";
+import i18next, { t, changeLanguage } from "i18next";
 
 export const getLaunchBy = async ({ id }: { id: string }) => {
   const res = await fetch(`https://api.spacexdata.com/v5/launches/${id}`);

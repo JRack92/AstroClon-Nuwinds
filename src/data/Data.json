@@ -1,0 +1,1104 @@
+{
+  "ListCategoryServices": {
+    "en": ["Creative", "Production", "Coding", "XR", "Social Media", "Public Relations", "Strategy", "Events Management"],
+    "es": ["Creatividad", "Producción", "Programación", "XR", "Redes Sociales", "Relaciones Públicas", "Estrategia", "Gestión de eventos"]
+  },
+  "Services": {
+    "en": [{
+        "Name": "Strategy",
+        "MetaDescription": "Nuwinds Strategy Services: Elevate business with data-driven solutions, market research, branding, and dynamic growth tactics. Boost visibility, engagement, and ROI seamlessly.",
+        "Priority": 1,
+        "Info": "Tailored, data-driven strategies to boost your business visibility and engage target audiences. Results-focused approach for optimal ROI.",
+        "Title": "Strategy Process",
+        "Img": "assets/img/Servicios/Strategy.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Performance Optimization",
+            "Info": "B2B and B2C strategy, market research and benchmarking to optimize performance, growth, and competitive advantage for businesses."
+          },
+          {
+            "Title": "Marketing Synergy",
+            "Info": "We combine strategic branding, enhancing the customer journey, leveraging inbound & outbound Marketing, and elevating CX-UX for exceptional results."
+          },
+          {
+            "Title": "Dynamic Growth",
+            "Info": "Business empowerment with channel distribution strategies & programs, omni-channel Marketing, and Agile Marketing strategies, ensuring a seamless and dynamic approach to reaching customers effectively."
+          }
+        ],
+        "ListServicesTitle": "Strategy services",
+        "ListServices": [
+          "Business Visibility Enhancement",
+          "Market Research and Benchmarking",
+          "Strategic Branding & Brand Comebacks",
+          "Inbound & Outbound Marketing",
+          "CX-UX Elevation",
+          "Channel Distribution Strategies & Programs",
+          "Omni-channel Marketing",
+          "Agile Marketing Strategies",
+          "Customer Engagement Optimization",
+          "ROI Optimization"
+        ]
+      },
+      {
+        "Name": "Creative",
+        "MetaDescription": "Nuwinds Creative Services: From cutting-edge design to powerful storytelling, elevate your brand with our creativity, SEO, & dynamic digital content strategies.",
+        "Priority": 2,
+        "Info": "Cutting-edge design and compelling storytelling that captivate audiences. Unique visuals, content, and innovative campaigns that leave a lasting impression.",
+        "Title": "Creative Process",
+        "Img": "assets/img/Servicios/Creative.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Creative Brand Mastery",
+            "Info": "Expert Creative Design & Art Direction, ensuring captivating visuals, while also focusing on building and elevating your Branding for long-term success."
+          },
+          {
+            "Title": "Engaging Copywriting",
+            "Info": "We specialize in B2B & B2C Copywriting, crafting compelling content for marketing and communication needs, including engaging Case Studies & Whitepapers for impactful storytelling."
+          },
+          {
+            "Title": "Optimized Online Impact",
+            "Info": "Maximize your online presence with effective SEO strategies, driving organic traffic and complementing it with engaging Social Media management for a dynamic digital footprint."
+          }
+        ],
+        "ListServicesTitle": "Creative services",
+        "ListServices": [
+          "Cutting-Edge Design",
+          "Compelling Storytelling",
+          "Unique Visuals",
+          "Content Innovation",
+          "Innovative Campaigns",
+          "Brand Building & Elevation",
+          "B2B & B2C Copywriting",
+          "Engaging Case Studies",
+          "Impactful Whitepapers",
+          "SEO Strategies & Social Media Management"
+        ]
+      },
+      {
+        "Name": "Advertising",
+        "MetaDescription": "Nuwinds Advertising Services: Strategic campaigns for brand awareness. Harnessing compelling messaging, precise targeting, and multi-platform expertise.",
+        "Priority": 3,
+        "Info": "Strategic ad campaigns to reach your target market and drive brand awareness. Compelling messaging, precise targeting, and optimization for maximum impact.",
+        "Title": "Advertising Process",
+        "Img": "assets/img/Servicios/Advertising.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Strategic Ad Mastery",
+            "Info": "Focus on crafting strategic ad campaigns to reach your target audience effectively, driving brand awareness and delivering impactful results for your business."
+          },
+          {
+            "Title": "Seamless Brand Amplification",
+            "Info": "Multi-platform/channel strategy, coupled with UX and UI expertise to elevate your brand's presence and user experience seamlessly."
+          },
+          {
+            "Title": "Enhanced Message Amplification",
+            "Info": "Deliver maximum exposure and engagement to enhance message visibility and reach."
+          }
+        ],
+        "ListServicesTitle": "Advertising services",
+        "ListServices": [
+          "Strategic Ad Campaigns",
+          "Compelling Messaging",
+          "Targeted Advertising",
+          "Optimization for Maximum Impact",
+          "Multi-Platform/Channel Strategy",
+          "UX & UI Expertise",
+          "Enhanced Message Visibility",
+          "Engagement Boost Strategies",
+          "Expanded Audience Reach"
+        ]
+      },
+      {
+        "Name": "Media",
+        "MetaDescription": "Nuwinds Media Services: Expert media planning & buying with optimized placements. Harnessing data insights, cutting-edge XR tech, and targeted strategies for superior ad impact.",
+        "Priority": 4,
+        "Info": "Comprehensive media planning and buying services to reach your audience across various channels. Optimized placements for effective ad distribution plus monitoring and analytics services for actionable insights.",
+        "Title": "Media Process",
+        "Img": "assets/img/Servicios/Media.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Targeted Advertising",
+            "Info": "Paid Search, Paid Social, Display & Programmatic advertising, driving targeted traffic and maximizing conversions for your business growth and online success."
+          },
+          {
+            "Title": "Cutting-Edge Advertising",
+            "Info": "Remarketing and content syndication to engage audiences effectively, combined with New Media - XR technologies to deliver immersive experiences and unparalleled brand interactions."
+          },
+          {
+            "Title": "Data-Driven Campaign Optimization",
+            "Info": "Comprehensive strategic analytics, unlocking valuable insights for data-driven decisions. With meticulous web and campaign analysis, we optimize performance and drive impactful results for your business."
+          }
+        ],
+        "ListServicesTitle": "Media services",
+        "ListServices": [
+          "Comprehensive Media Planning",
+          "Media Buying Services",
+          "Data-Driven Insights",
+          "Optimized Placements",
+          "Paid Search & Social Advertising",
+          "Display Advertising",
+          "Programmatic Advertising",
+          "Remarketing & Content Syndication",
+          "New Media - XR Technologies",
+          "Campaign Performance Tracking",
+          "Media Investment Optimization"
+        ]
+      },
+      {
+        "Name": "Production",
+        "MetaDescription": "Nuwinds Production Services: Boost your brand with immersive VR/AR, multimedia, events, and expert experiential marketing for unparalleled impact.",
+        "Priority": 5,
+        "Info": "End-to-end production solutions for your marketing needs. From event management, crafting mesmerizing multimedia experiences, leveraging virtual reality, and creating engaging online content to unleash your brand's potential.",
+        "Title": "Production Process",
+        "Img": "assets/img/Servicios/Production.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Experiential Marketing Strategies",
+            "Info": "Cutting-edge tech B2B & B2C integrated marketing campaigns that amplify your brand's reach and impact. Our Experiential Marketing strategies create immersive experiences, complemented by captivating multimedia production to engage your audience like never before."
+          },
+          {
+            "Title": "Experiences with no boundaries",
+            "Info": "Boost your brand with virtual, augmented and mixed reality experiences. We are at the forefront of new technologies to take your audience beyond the limits."
+          },
+          {
+            "Title": "Exponential Growth Accelerators",
+            "Info": "Production of innovative Partner Programs for exponential growth. Marketing in a box campaigns and tool kits with all you need to succeed."
+          }
+        ],
+        "ListServicesTitle": "Production services",
+        "ListServices": [
+          "Multimedia Experiences",
+          "Immersive Technology Integration (VR/AR/MX)",
+          "Engaging Digital Content Creation",
+          "Experiential Marketing Strategies",
+          "Turnkey Services for On-Site Events",
+          "Engaging Online Training & Webinars",
+          "Innovative Partner & Loyalty Programs",
+          "Marketing in a Box Campaigns"
+        ]
+      },
+      {
+        "Name": "Coding",
+        "MetaDescription": "Nuwinds Coding Services: Expert web & app development, AI-powered solutions, and conversion-driven designs. Mastering digital assets for online success.",
+        "Priority": 6,
+        "Info": "Expert coding services to build and optimize your digital assets. Custom web development, seamless integration, and robust solutions to drive online success.",
+        "Title": "Coding Process",
+        "Img": "assets/img/Servicios/Coding.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Digital Development Mastery",
+            "Info": "We specialize in creating dynamic web development solutions, user-friendly mobile applications, and drive sales with effective E-Commerce + Online Marketplace Marketing strategies to propel your business forward."
+          },
+          {
+            "Title": "Conversion-Driven Developments",
+            "Info": "Captivating landing pages, interactive product & service configurators for a personalized experience. Expert CRM marketing management to optimize customer engagement and boost conversions."
+          },
+          {
+            "Title": "Cutting-Edge Development",
+            "Info": "Innovative marketing Apps powered by AI & machine learning, revolutionizing data-driven strategies for maximum impact, efficiency, and growth in the digital landscape."
+          }
+        ],
+        "ListServicesTitle": "Coding services",
+        "ListServices": [
+          "Expert Coding Services",
+          "Custom & Dynamic Web Development",
+          "Seamless Integration Solutions",
+          "Robust Digital Solutions",
+          "User-Friendly Mobile Applications",
+          "E-Commerce & Online Marketplace Strategies",
+          "Captivating Landing Pages",
+          "Interactive Product & Service Configurators",
+          "Engaging Email Marketing Campaigns",
+          "Expert CRM Marketing Management",
+          "Innovative AI-Powered Marketing Apps"
+        ]
+      },
+      {
+        "Name": "Public Relations (PR)",
+        "MetaDescription": "Nuwinds PR Services: Mastering media relations, reputation care, and storytelling to amplify brand voice, manage crises, and create engaging content.",
+        "Priority": 7,
+        "Info": "Strategic public relations solutions that shape your brand narrative. Media relations, reputation management, and impactful storytelling to enhance brand perception and build credibility.",
+        "Title": "PR Process",
+        "Img": "assets/img/Servicios/PublicRelations.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Influence Boost Strategies",
+            "Info": "We empower brands through thought leadership, elevating industry influence and market authority. Harness the potential of Influencer Marketing to connect authentically and drive meaningful engagement with your target audience."
+          },
+          {
+            "Title": "Brand Image Guardians",
+            "Info": "Expert reputation & crisis management to safeguard your brand's image. Leverage the potential of Free Press to gain widespread exposure and enhance your credibility."
+          },
+          {
+            "Title": "Authority Amplification",
+            "Info": "We specialize in crafting authoritative White Papers to showcase your expertise and influence decision-makers. Elevate your corporate communication strategy with compelling content that engages and resonates with your audience."
+          }
+        ],
+        "ListServicesTitle": "PR services",
+        "ListServices": [
+          "Brand Voice & Narrative Shaping",
+          "Media Relations & Exposure",
+          "Reputation & Crisis Management",
+          "Impactful Storytelling",
+          "Thought Leadership Empowerment",
+          "Influencer Marketing Strategies",
+          "Corporate Communication Strategy Enhancement",
+          "Authoritative White Papers",
+          "Impactful Success Stories"
+        ]
+      },
+      {
+        "Name": "Events Management",
+        "MetaDescription": "Nuwinds Events Management Services: Expertise in planning, venue choice, and attendee care for impactful, seamless, and memorable event experiences.",
+        "Priority": 8,
+        "Info": "Crafting unforgettable events through meticulous planning, coordination, and creativity. We bring your vision to life, ensuring seamless execution and meaningful experiences.",
+        "Title": "Events Management process.",
+        "Img": "assets/img/Servicios/Events.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Planning, scouting and execution",
+            "Info": "Our service excels in Location and Venue Scouting, ensuring the perfect setting. From meticulous Location Setup & Planning to Start-to-Finish Logistics, we handle every detail seamlessly for a successful event."
+          },
+          {
+            "Title": "Complete event journey design",
+            "Info": "We provide comprehensive event expertise: creative general session design, registration services, and efficient hotel and booking management for an exceptional event journey."
+          },
+          {
+            "Title": "End-to-end event excellence",
+            "Info": "Personalized attendee gifts and giveaways, speaker/artist booking and management, and strategic post-event attendee follow up for lasting event impact."
+          }
+        ],
+        "ListServicesTitle": "Events Management services",
+        "ListServices": [
+          "Location and Venue Scouting",
+          "Registration Services",
+          "General Session Design",
+          "General Session Production",
+          "Speaker and Session Planning",
+          "Hotel and Booking Management",
+          "Attendee Gifts and Giveaways",
+          "Speaker/Artist Booking and Management",
+          "Post-Event Attendee Follow Up Planning"
+        ]
+      }
+    ],
+    "es": [{
+        "Name": "Estrategia",
+        "MetaDescription": "Servicios de Estrategia Nuwinds: Eleva tu negocio con soluciones basadas en datos, investigación de mercado, branding y tácticas de crecimiento dinámico.",
+        "Priority": 1,
+        "Info": "Analizamos los datos de tu negocio para crear estrategias personalizadas que aumenten la visibilidad de tu marca hacia tu público objetivo. Además, contamos con un enfoque orientado a los resultados para  alcanzar el máximo retorno de tu inversión.",
+        "Title": "Servicio de gestión estratégica",
+        "Img": "assets/img/Servicios/Strategy.webp",
+        "AltImg": "Proceso estratégico",
+        "FeaturedServices": [{
+            "Title": "Análisis estratégico",
+            "Info": "Realizamos investigación de mercado y benchmarking para encontrar las ventajas competitivas, optimizar el rendimiento y medir el crecimiento de las estrategias B2B y B2C de cada marca."
+          },
+          {
+            "Title": "Sinergia en acciones de marketing",
+            "Info": "Unimos la creación estratégica de marcas con el perfeccionamiento del customer journey, la implementación del inbound y outbound marketing y la mejora de la experiencia del cliente (CX-UX) para obtener resultados excepcionales."
+          },
+          {
+            "Title": "Crecimiento dinámico",
+            "Info": "Mediante la aplicación de la metodología Agile y la formulación de estrategias que integran los diferentes canales de distribución, apoyamos un ritmo de trabajo flexible que se ajusta a las dinámicas de crecimiento."
+          }
+        ],
+        "ListServicesTitle": "Servicios de estrategia",
+        "ListServices": [
+          "Visibilidad empresarial",
+          "Estudios de mercado y evaluación benchmarking",
+          "Branding estratégico y retorno de marca",
+          "Inbound y outbound marketing",
+          "CX-UX a otro nivel",
+          "Estrategias en canales de distribución",
+          "Marketing omnicanal",
+          "Metodología Agile marketing ",
+          "Optimización en la relación con los clientes",
+          "Maximización del ROI"
+        ]
+      },
+      {
+        "Name": "Creatividad",
+        "MetaDescription": "Servicios Creativos Nuwinds: Diseño avanzado y storytelling poderoso para elevar tu marca. Creatividad, SEO y estrategias digitales en un paquete.",
+        "Priority": 2,
+        "Info": "Diseñamos contenidos persuasivos y de vanguardia para campañas de marketing que cautiven a tu audiencia de forma duradera.",
+        "Title": "Servicio de gestión creativa",
+        "Img": "assets/img/Servicios/Creative.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Desarrollo creativo de marcas",
+            "Info": "Somos expertos en la dirección de arte y el diseño creativo. Transformamos la percepción de tu marca con visuales de vanguardia que marcan la diferencia."
+          },
+          {
+            "Title": "Redacción creativa y efectiva",
+            "Info": "Creamos textos para estrategias de marketing  B2B y B2C, tales como Case Studies o Whitepapers, que incorporan narrativas convincentes y responden a los objetivos comunicativos de cada marca."
+          },
+          {
+            "Title": "Máximo impacto en línea",
+            "Info": "Potenciamos tu visibilidad mediante estrategias de SEO y la gestión oportuna de redes sociales para aumentar el tráfico orgánico y mantener la relevancia de tu marca en línea."
+          }
+        ],
+        "ListServicesTitle": "Servicios creativos",
+        "ListServices": [
+          "Diseño de vanguardia",
+          "Storytelling envolvente",
+          "Diseños únicos",
+          "Innovación en contenidos",
+          "Campañas innovadoras",
+          "Creación y promoción de marcas",
+          "Redacción B2B y B2C",
+          "Desarrollo de casos de éxito",
+          "Whitepapers impactantes",
+          "Estrategias SEO y gestión de redes sociales"
+        ]
+      },
+      {
+        "Name": "Publicidad",
+        "MetaDescription": "Servicios de Publicidad Nuwinds: Campañas para potenciar tu marca con mensajes impactantes, segmentación exacta y expertise multiplataforma.",
+        "Priority": 3,
+        "Info": "Optimizamos campañas publicitarias que alcancen a tu público objetivo y mejoren el reconocimiento de tu marca. A través de una segmentación precisa y mensajes persuasivos, logramos un máximo impacto.",
+        "Title": "Servicio de publicidad",
+        "Img": "assets/img/Servicios/Advertising.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Publicidad estratégica",
+            "Info": "Creamos campañas de publicidad que se alineen con los objetivos estratégicos de tu negocio, fortalezcan el reconocimiento de tu marca y generen los resultados esperados."
+          },
+          {
+            "Title": "Mejor difusión de marca",
+            "Info": "Utilizamos una estrategia multiplataforma con conocimientos UX y UI para elevar la presencia de tu marca y proporcionar una experiencia del usuario fluida y coherente."
+          },
+          {
+            "Title": "Mayor exposición del mensaje",
+            "Info": "Ampliamos la exposición de tu marca con un mensaje poderoso que pueda conectar fácilmente con la audiencia que deseas alcanzar."
+          }
+        ],
+        "ListServicesTitle": "Servicios publicitarios",
+        "ListServices": [
+          "Campañas publicitarias estratégicas",
+          "Mensajes convincentes",
+          "Publicidad dirigida",
+          "Optimización para lograr el máximo impacto",
+          "Estrategia multiplataforma",
+          "Experiencia UX y UI",
+          "Mayor visibilidad del mensaje",
+          "Estrategias para potenciar el engagement",
+          "Ampliación de la audiencia"
+        ]
+      },
+      {
+        "Name": "Medios",
+        "MetaDescription": "Servicios de Medios Nuwinds: Planificación y compra experta con ubicaciones optimizadas. Usamos datos y tecnología XR para maximizar el impacto publicitario.",
+        "Priority": 4,
+        "Info": "Planificamos la adquisición de espacios publicitarios en medios que posibilitan una conexión efectiva con tu público objetivo. Además, ejecutamos una distribución optimizada de los anuncios y llevamos a cabo un análisis y seguimiento exhaustivo de su desempeño.",
+        "Title": "Servicio de gestión de medios",
+        "Img": "assets/img/Servicios/Media.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Publicidad dirigida",
+            "Info": "Mediante estrategias de Paid Search, Paid Social, Display & Programmatic advertising, generamos un tráfico segmentado que optimiza las conversiones, impulsando así el crecimiento de tu negocio y fortaleciendo tu presencia en línea."
+          },
+          {
+            "Title": "Campañas innovadoras",
+            "Info": "Realizamos el remarketing y la distribución creativa del contenido a través de diferentes medios publicitarios que permitan llegar al público objetivo. Además, proporcionamos experiencias en nuevos medios de tecnología XR que promuevan interacciones memorables con tu marca."
+          },
+          {
+            "Title": "Análisis de datos para optimización",
+            "Info": "Realizamos un análisis exhaustivo de las campañas y los datos web para tomar decisiones que optimicen el rendimiento y logren un mejor resultado."
+          }
+        ],
+        "ListServicesTitle": "Servicios relacionados con la gestión de medios",
+        "ListServices": [
+          "Planificación integral de medios",
+          "Compra de medios",
+          "Análisis de datos",
+          "Asignación y distribución optimizada del contenido",
+          "Publicidad en redes sociales y buscadores",
+          "Publicidad en la red de display",
+          "Programmatic Advertising",
+          "Publicidad programática",
+          "Remarketing y Content Syndication",
+          "Nuevos medios - Tecnologías XR",
+          "Seguimiento del rendimiento de las campañas",
+          "Optimización de la inversión en medios"
+        ]
+      },
+      {
+        "Name": "Producción",
+        "MetaDescription": "Servicios de Producción Nuwinds: Impulsa tu marca con experiencias VR/AR, multimedia, eventos y marketing experiencial experto.",
+        "Priority": 5,
+        "Info": "Creamos experiencias fascinantes usando la realidad extendida (XR) para dar rienda suelta al potencial de tu marca. Satisfacemos tus necesidades ya que proporcionamos soluciones integrales de producción.",
+        "Title": "Servicio de producción",
+        "Img": "assets/img/Servicios/Production.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Marketing experiencial",
+            "Info": "Aumentamos el impacto de tu marca con campañas de marketing B2B y B2C que usan experiencias inmersivas para cautivar a tu público objetivo como nunca antes."
+          },
+          {
+            "Title": "Experiencias sin límites",
+            "Info": "Potenciamos tu marca utilizando experiencias de realidad virtual (RV), realidad aumentada (RA) y realidad mixta (RM) para contar historias de manera más impactante y conectar emocionalmente con tu público."
+          },
+          {
+            "Title": "Aceleradores de crecimiento exponencial",
+            "Info": "Producimos programas de socios y fidelización para el crecimiento exponencial de tu negocio. Entregamos campañas de marketing listas para usar (o Campaign-in a-box) y kits de herramientas que contienen todo lo necesario para lograr el éxito."
+          }
+        ],
+        "ListServicesTitle": "Servicios relacionados con la gestión de medios",
+        "ListServices": [
+          "Experiencias multimedia",
+          "Integración de tecnología inmersiva (RV/RA/RM)",
+          "Creación de contenidos digitales atractivos",
+          "Estrategias de marketing experiencial",
+          "Formación en línea y seminarios web atractivos",
+          "Programas de socios y fidelización",
+          "Campaign in-a-box"
+        ]
+      },
+      {
+        "Name": "Programación",
+        "MetaDescription": "Servicios de Programación Nuwinds: Desarrollo especializado de sitios web y apps, soluciones impulsadas por IA y diseños orientados a la conversión.",
+        "Priority": 6,
+        "Info": "Desarrollamos servicios de programación especializada para crear y optimizar tus activos digitales. Esto incluye la creación de sitios web personalizados, integraciones y soluciones robustas que te permitan alcanzar los objetivos de marketing propuestos.",
+        "Title": "Servicio de programación",
+        "Img": "assets/img/Servicios/Coding.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Expertos en desarrollo digital",
+            "Info": "Creamos soluciones dinámicas para el desarrollo web, producimos aplicaciones móviles con diseño intuitivo y ejecutamos estrategias efectivas para el comercio electrónico que impulsen las ventas de tu negocio."
+          },
+          {
+            "Title": "Desarrollos orientados a la conversión",
+            "Info": "Diseñamos landing pages atractivas, aplicativos web interactivos, como configuradores de servicios que brinden experiencias personalizadas para aumentar tus conversiones. Además, nuestros especialistas en la gestión de CRMs se encargan de automatizar todo el funnel de marketing y ventas."
+          },
+          {
+            "Title": "Desarrollo de vanguardia",
+            "Info": "Creamos Apps de marketing basadas en IA y aprendizaje automático que optimizan las estrategias de marketing con el fin de lograr un máximo impacto, eficiencia y crecimiento en el entorno digital."
+          }
+        ],
+        "ListServicesTitle": "Servicios de programación",
+        "ListServices": [
+          "Servicios de programación especializada",
+          "Desarrollo web personalizado",
+          "Soluciones de integración",
+          "Soluciones digitales avanzadas",
+          "Desarrollo de aplicaciones móviles",
+          "Estrategias para e-commerces y e-marketplaces",
+          "Landing pages atractivas",
+          "Interactive Product & Service Configurators",
+          "Configuradores interactivos de productos y servicios",
+          "Campañas de marketing por correo electrónico",
+          "Manejo profesional de CRMs para temas de marketing"
+        ]
+      },
+      {
+        "Name": "Relaciones Públicas",
+        "MetaDescription": "Servicios de PR Nuwinds: Expertos en establecer relaciones con medios de comunicación, gestionar la reputación de tu marca y amplificar tu mensaje.",
+        "Priority": 7,
+        "Info": "Desde el manejo de medios hasta la gestión de la reputación y narrativa de marca, fortalecemos la percepción de tu audiencia  y la credibilidad de tu negocio a través de soluciones estratégicas a tu medida.",
+        "Title": "Servicio de gestión en relaciones públicas",
+        "Img": "assets/img/Servicios/PublicRelations.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Marketing de influencers",
+            "Info": "Aprovechamos el potencial del marketing de influencers para establecer conexiones auténticas y generar un compromiso profundo con tu público objetivo. Gracias a nuestra experiencia y pensamiento innovador, ideamos estrategias que aumentan la autoridad e influencia de nuestros clientes."
+          },
+          {
+            "Title": "Guardianes de marca",
+            "Info": "Protegemos la imagen de tu marca mediante una gestión de crisis y reputación efectiva. Además, usamos el poder de la cobertura mediática para lograr una amplia exposición y reforzar la credibilidad de tu negocio."
+          },
+          {
+            "Title": "Posicionamiento de marca",
+            "Info": "Nos destacamos en la creación de Whitepapers que exhiban tu experiencia e influyan en la toma de decisiones. Mejora tu estrategia de comunicación corporativa con contenidos persuasivos que atraigan y conecten con tu audiencia de manera efectiva."
+          }
+        ],
+        "ListServicesTitle": "Servicios de relaciones públicas",
+        "ListServices": [
+          "Desarrollo de narrativa y tono de marca",
+          "Relación y exposición con medios masivos y especializados",
+          "Reputación y gestión de crisis",
+          "Storytelling atractivo",
+          "Posicionamiento de marca",
+          "Estrategias de marketing de influencers",
+          "Estrategia de comunicación corporativa",
+          "Desarrollo de Whitepapers de valor",
+          "Historias de éxito impactantes"
+        ]
+      },
+      {
+        "Name": "Gestión de Eventos",
+        "MetaDescription": "Servicio Gestión de Eventos Nuwinds: Expertos en la planificación, la elección de lugares y del cuidado de los asistentes para experiencias inolvidables.",
+        "Priority": 8,
+        "Info": "Producimos eventos inolvidables mediante una planificación meticulosa, coordinación creativa y ejecución precisa. Convertimos tu visión en realidad, asegurando una ejecución impecable para ofrecer experiencias memorables.",
+        "Title": "Servicio de gestión de eventos",
+        "Img": "assets/img/Servicios/Events.webp",
+        "AltImg": "ALT Imagen",
+        "FeaturedServices": [{
+            "Title": "Planificación, búsqueda y ejecución",
+            "Info": "Nos destacamos por la búsqueda de locaciones y espacios perfectos que se ajusten a las necesidades específicas de cada evento. Nos encargamos de la logística de principio a fin para que todos los detalles de tu evento sean un éxito total."
+          },
+          {
+            "Title": "Diseño integral del evento",
+            "Info": "Contamos con una amplia experiencia en el diseño de eventos. Desde la conceptualización, la creación de piezas creativas y el manejo de servicios de inscripción hasta la gestión de locaciones y reservas para que el evento sea excepcional en toda su ejecución."
+          },
+          {
+            "Title": "Excelencia de principio a fin",
+            "Info": "Proporcionamos obsequios personalizados a los asistentes y gestionamos la contratación de ponentes y artistas invitados. Además, realizamos un seguimiento oportuno a los participantes del evento para conocer el impacto real de acuerdo a los objetivos de la actividad."
+          }
+        ],
+        "ListServicesTitle": "Servicios de gestión de eventos",
+        "ListServices": [
+          "Búsqueda de locaciones",
+          "Servicios de inscripción",
+          "Conceptualización y diseño del evento",
+          "Producción de la sesión general",
+          "Planificación de la agenda del evento",
+          "Gestión de hoteles y reservas",
+          "Regalos para los asistentes",
+          "Contratación de conferencistas y artistas invitados",
+          "Seguimiento de los asistentes tras el evento"
+        ]
+      }
+    ]
+  },
+  "Portfolio": {
+    "en": [{
+        "Priority": 1,
+        "MetaDescription": "Nuwinds portfolio - HBO's launch: Strategic campaign with a unique kit & microsite. Amplifying engagement in B2B & B2C markets across the Americas.",
+        "Name": "\"The Hypnotist\" Regional Launch",
+        "NameUrl": "TheHypnotistRegionalLaunch",
+        "Title": "\"The Hypnotist\" Regional Launch",
+        "Info": "We created a regional launch campaign for HBO, aimed at promoting their original production series, \"The Hypnotist\" to all TV regional operator cable networks. This strategic campaign utilized various marketing assets to generate intrigue and drive engagement among the target audience.<br><br>To create anticipation and curiosity around the series, we designed an intriguing launch kit that served as an exclusive invitation to explore \"The Hypnotist\" world. The kit included an appealing packaging along with a handwatch and a QR code leading to the dedicated microsite of the series. Through this microsite, operators were able to access to information about the show, including synopsis, trailer, cast details, and other promotional assets. This empowered them to effectively promote \"The Hypnotist\" to their end-users while providing valuable resources for enhancing user engagement.<br><br>By leveraging these marketing campaign we maximized exposure for \"The Hypnotist\" and the result was heightened interest in the series among both operators and end-users alike.",
+        "Img": "Hipnotizador.webp",
+        "AltImg": "\"The Hypnotist\" Regional Launch",
+        "Category": "Creative / Production / Coding",
+        "Location": "Americas",
+        "Market": "B2B & B2C",
+        "Client": "HBO",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/HBO.webp",
+        "MediasFile": [{
+          "Name": "HBO",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Hipnotizador.webp",
+          "Type": "Img",
+          "AltImg": "\"The Hypnotist\" Regional Launch"
+        }]
+      },
+      {
+        "Priority": 2,
+        "MetaDescription": "Nuwinds portfolio - Apple Configurator: An interactive tool for custom workstations. Streamlined choices & insights aim to boost sales across North America.",
+        "Name": "Apple Home and Company Web Configurator",
+        "NameUrl": "AppleHomeAndCompanyWebConfigurator",
+        "Title": "Apple Home and Company Web Configurator",
+        "Info": "We created an innovative marketing and sales digital strategy for Apple, aimed at promoting and incentivizing end users and companies to explore our interactive tool - the Apple Home and Company Web Configurator. This powerful tool allows users to easily set up a customized work-from-home station or company station for employees.<br><br>Through the web configurator, users can conveniently browse through various options and features available for their workstation settings. The tool provides detailed information on each feature benefits, helping decision makers define the most suitable and cost-effective purchases.<br>Our goal was to create an engaging user experience that simplifies the process of configuring personalized workstations while showcasing how Apple products can enhance productivity, comfort, and efficiency in both home-based and corporate environments.<br><br>By leveraging this unique web configurator, we empowered decision makers with valuable insights into recommended product combinations tailored to their needs.",
+        "Img": "Apple.webp",
+        "AltImg": "Apple Home and Company Web Configurator",
+        "Category": "Creative / Coding",
+        "Location": "North America",
+        "Market": "B2B & B2C",
+        "Client": "Insight / Apple",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/InsightApple.webp",
+        "MediasFile": [{
+          "Name": "Apple01",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Apple02",
+          "Type": "Video",
+          "AltImg": ""
+        }]
+      },
+      {
+        "Priority": 3,
+        "MetaDescription": "Nuwinds portfolio - Sebastian Yatra's VR Experience: For Universal Music we crafted an immersive VR world, elevating fan experience for \"Fantasia\" album launch.",
+        "Name": "360° VR Experience - Universal Music Launch",
+        "NameUrl": "360VrExperienceUniversalMusicLaunch",
+        "Title": "360° VR Experience - Universal Music Launch",
+        "Info": "In collaboration with Universal Music, we produced a captivating 360° VR video for Latin America's top music artist, Sebastian Yatra. Our team handled the entire process from creative concept to postproduction, ensuring an immersive experience for his audience on YouTube.<br><br>By utilizing the power of 360° VR technology, we aimed to bring a new reality to Sebastian Yatra's fans and create an unforgettable experience. The video was accessible on any device, but those equipped with VR headsets could fully immerse themselves in a vibrant and dynamic world.<br><br>This innovative strategy allowed us to maximize interaction and engagement among all viewers while promoting his latest music album \"Fantasia\". With our 360° VR video, audiences were transported into a colorful journey that perfectly complemented the essence of the album.<br><br>Witness the future of visual storytelling as we redefine boundaries through cutting-edge technologies and unlock new dimensions of entertainment.",
+        "Img": "Universal.webp",
+        "AltImg": "360° VR Experience - Universal Music Launch",
+        "Category": "Creative / Coding / XR",
+        "Location": "Americas",
+        "Market": "B2C",
+        "Client": "Universal Music",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Universal.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 4,
+        "MetaDescription": "Nuwinds portfolio - FIU VR Storytelling: An immersive journey through Holocaust stories to inspire social change within the FIU community.",
+        "Name": "FIU - Storytelling for Social Change",
+        "NameUrl": "FIU-StorytellingForSocialChange",
+        "Title": "FIU - Storytelling for Social Change",
+        "Info": "In collaboration with the FIU, we embarked on an innovative project to harness the power of storytelling with a virtual reality experience (VR) for their student community. Through a creative concept developed by our team, we crafted a captivating VR experience that transported students into an abstract space where they could connect with the powerful testimonies of Holocaust survivors.<br><br>In this immersive journey, students were enveloped by 3D spatial audio, allowing them to truly live in the moment as they listened to these remarkable stories. Our focus was creating an impactful auditory experience that would deeply resonate with each individual. Through this unique approach, participants had the opportunity to learn about 8 Holocaust survivors and gain a profound understanding of their experiences. As an added element of engagement and empathy-building, users were able to record personal voice messages for the survivors, fostering a sense of connection across time and space.<br><br>This project exemplifies how XR technologies can be utilized not only for educational purposes but also as a catalyst for social change.",
+        "Img": "FIU.webp",
+        "AltImg": "FIU - Storytelling for Social Change",
+        "Category": "Creative / Coding / XR",
+        "Location": "North  America",
+        "Market": "B2C",
+        "Client": "Florida International University",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/FIU.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 5,
+        "MetaDescription": "Nuwinds Portfolio - AR Vape Experience: An AR Snapchat filter educating teens on e-cigarette dangers. Merging gaming with learning for healthier choices.",
+        "Name": "AR Vape Filter & Engaging Experience",
+        "NameUrl": "ARVapeFilterAndEngagingExperience",
+        "Title": "AR Vape Filter & Engaging Experience",
+        "Info": "We had the opportunity to create an engaging Augmented Reality (AR) Snapchat filter with a gamification experience for The Facts Now. This project aimed to educate and raise awareness among teenagers about the hazards of e-cigarettes, ultimately preventing them from becoming addicted.<br><br>From concept to launch, we designed an interactive gamified experience where users could construct a 3D vape using various dangerous substances and ingredients step-by-step and revealing the hidden chemicals found in e-cigarettes, showcasing their potential harm. Through this immersive experience, we successfully engaged the teenager audience while educating them about the risks involved.<br><br>Users were able to record and share their \"awful\" trophy as a symbol of their accomplishment in completing the game. By combining education with entertainment, we empowered young individuals to make informed choices regarding their health and well-being",
+        "Img": "Golin.webp",
+        "AltImg": "AR Vape Filter & Engaging Experience",
+        "Category": "Creative / Coding / XR",
+        "Location": "North  America",
+        "Market": "B2C",
+        "Client": "The Facts Now",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/TheFactsNow.webp",
+        "MediasFile": [{
+          "Name": "Golin",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Golin.webp",
+          "Type": "Img",
+          "AltImg": "AR Vape Filter & Engaging Experience"
+        }]
+      },
+      {
+        "Priority": 6,
+        "MetaDescription": "Nuwinds Portfolio - Tango Marine Website: Premium yacht site design, enhancing digital presence with a dynamic approach in North America's marine sector.",
+        "Name": "Tango Marine Website",
+        "NameUrl": "TangoMarineWebsite",
+        "Title": "Tango Marine Website",
+        "Info": "We had the privilege to build Tango Marine website from scratch, leveraging our expertise and incorporating their preferred style. Through extensive research and benchmarking in the yacht operations and management niche market, we brought forth a clean, fresh, and dynamic website. Every element was meticulously designed to establish Tango Marine's strong and captivating digital presence.<br><br>But our dedication doesn't end there. We remain committed to supporting and enhancing their digital footprint by implementing additional digital marketing assets and strengthening their social media presence.",
+        "Img": "TangoMarine.webp",
+        "AltImg": "Tango Marine Website",
+        "Category": "Creative / Coding",
+        "Location": "North  America",
+        "Market": "B2C",
+        "Client": "Tango Marine",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/TangoMarine.webp",
+        "MediasFile": [{
+          "Name": "TangoMarine",
+          "Type": "Video",
+          "AltImg": ""
+        }]
+      },
+      {
+        "Priority": 7,
+        "MetaDescription": "Nuwinds Portfolio - Epiroc: Enhancing B2B outreach with customized content, surveys, & digital solutions to strengthen Epiroc as a leader in LATAM market.",
+        "Name": "Epiroc",
+        "NameUrl": "Epiroc",
+        "Title": "Epiroc",
+        "Info": "Tasked with the goal to solidify EPIROC's brand in the digital Latin American market, our team embarked on a mission to blend strategy services, creative design, and coding. Our approach was based on a compelling narrative, capturing insights, and delivering captivating journeys that drive remarkable engagement in the Latin American market.<br/><br/>Our Strategy had 4 key points:<ul><li>Tailored Surveys.</li><li>Email Marketing Nurturing Campaigns.</li><li>Landing Pages.</li><li>Digital Customer Journey Strategy.</li></ul>The results? Enhanced client engagement, reaffirmed brand trust, and EPIROC's cemented reputation as industry trailblazers in the Latin American B2B sector.",
+        "Img": "Epiroc.webp",
+        "AltImg": "Epiroc",
+        "Category": "Creative / Coding / Strategy",
+        "Location": "Latin America",
+        "Market": "B2B / B2C",
+        "Client": "Epiroc",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Epiroc.webp",
+        "MediasFile": [{
+          "Name": "Epiroc",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Epiroc.webp",
+          "Type": "Img",
+          "AltImg": "Epiroc"
+        }]
+      },
+      {
+        "Priority": 8,
+        "MetaDescription": "Nuwinds Portfolio- Lexar in Brazil: Elevating brand presence with a compelling SM narrative and PR expertise, driving engagement among its B2C audience.",
+        "Name": "Lexar",
+        "NameUrl": "Lexar",
+        "Title": "Lexar",
+        "Info": "Our transformative approach to Lexar's presence in Brazil involved crafting a captivating social media narrative from scratch. Today, our strategy boasts exceptional engagement, propelling Lexar's brand to the forefront. Seamlessly blending social media and PR expertise, we've orchestrated a winning formula that not only resonates but also leaves a lasting impact in the minds of the audience.",
+        "Img": "Lexar.webp",
+        "AltImg": "Lexar",
+        "Category": "Social Media / Public Relations",
+        "Location": "Brazil",
+        "Market": "B2C / B2B",
+        "Client": "Lexar",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Lexar.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 9,
+        "MetaDescription": "Explore how we took Talkmore's branding to the next level with innovative monthly visual identities, enhancing internal communication and boosting sales.",
+        "Name": "Internal Communications Strategy",
+        "NameUrl": "InternalCommunicationsStrategy",
+        "Title": "Internal Communications Strategy",
+        "Info": "For Talkmore, we craft monthly visual identities that align seamlessly with their internal communication strategy. Our expertise empowers them to effectively communicate these concepts to their sales teams, ultimately driving the achievement of ambitious goals and delivering outstanding results. Through our continuous collaboration, we've designed a dynamic creative process rooted in an intricate understanding of the brand and its internal strategies, consistently propelling the attainment of desired outcomes and objectives.",
+        "Img": "Talkmore01.webp",
+        "AltImg": "Talkmore",
+        "Category": "Strategy / Creative",
+        "Location": "USA",
+        "Market": "B2B",
+        "Client": "Talkmore",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Talkmore.webp",
+        "MediasFile": [{
+          "Name": "Talkmore01.webp",
+          "Type": "Img",
+          "AltImg": "Talkmore"
+        }, {
+          "Name": "Talkmore02.webp",
+          "Type": "Img",
+          "AltImg": "Talkmore"
+        }]
+      },
+      {
+        "Priority": 10,
+        "MetaDescription": "Discover examples of how we make business events memorable, building stronger connections and setting the stage for huge wins.",
+        "Name": "Unforgettable moments",
+        "NameUrl": "UnforgettableMomentst",
+        "Title": "Unforgettable moments",
+        "Info": "With our Events Management service, we transform your events into unforgettable experiences, connecting you with your customers on a profound level. From meticulously planned product launches to immersive brand activations, our expertise ensures that every interaction leaves a lasting impression. We create exceptional moments that strengthen your brand-customer relationships and drive unparalleled success.",
+        "Img": "Events.webp",
+        "AltImg": "Unforgettable moments",
+        "Category": "Events Management",
+        "Location": "USA / Latin America",
+        "Market": "B2B / B2C",
+        "Client": "Multi",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Nuwinds.webp",
+        "MediasFile": [{
+          "Name": "Events01.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events02.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events03.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events04.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }]
+      },
+      {
+        "Priority": 11,
+        "MetaDescription": "Learn how we transformed Intel's marketing strategies with 'Marketing in a Box' campaigns, strengthening partnerships and nurturing mutual success.",
+        "Name": "Intel Marketing in a Box",
+        "NameUrl": "IntelMarketingInABox",
+        "Title": "Intel Marketing in a Boxs",
+        "Info": "For Intel, one of the most recognized technology giants in the world, we were entrusted with the task of designing and developing comprehensive \"Marketing in a Box\" campaigns, aimed at its distributors and channels throughout the Americas. This ambitious project aimed to not only centralize, but also simplify and standardize the marketing process for its multiple partners, guaranteeing consistency and efficiency in each country and in each language.<br/><br/>Each Marketing in a Box contained the following digital assets:<br/><br/>Creative Concept and Customer Journey.<br/>Landing Page.<br/>Email Marketing Templates for Nurturing.<br/>Web Banners and Publications in Social Networks for digital guidelines.<br/>Co-branding Flexibility<br/><br/>With this project, we not only delivered marketing tools, but also built a solid connection between Intel and its valued partners in the Americas, strengthening relationships and aligning strategies for mutual success.",
+        "Img": "Intel01.webp",
+        "AltImg": "Intel Marketing in a Box",
+        "Category": "Creative / Coding",
+        "Location": "Americas",
+        "Market": "B2B",
+        "Client": "Intel",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Intel.webp",
+        "MediasFile": [{
+          "Name": "Intel01.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }, {
+          "Name": "Intel02.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }, {
+          "Name": "Intel03.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }]
+      }
+    ],
+    "es": [{
+        "Priority": 1,
+        "MetaDescription": "Portafolio de Nuwinds - HBO: Campaña estratégica con kit único y micrositio. Ampliamos el compromiso e interés de audiencias B2B y B2C en toda América.",
+        "Name": "Lanzamiento regional de la serie \"El Hipnotizador\"",
+        "NameUrl": "LanzamientoRegionalDeLaSerieElHipnotizador",
+        "Title": "Lanzamiento regional de la serie \"El Hipnotizador\"",
+        "Info": "Creamos una campaña de lanzamiento para HBO enfocada en la promoción de su serie original \"The Hypnotist\" dirigida a todos los teleoperadores regionales. Para ello, realizamos una actividad de marketing que despertará el interés y el compromiso del público objetivo.<br><br>Para esto, diseñamos una invitación exclusiva que animara a los operadores a explorar el universo de la serie. La invitación fue entregada en un packaging atractivo que contenía un reloj de pulsera y un código QR que los llevaba al micrositio dedicado a “The Hypnotist”. Allí, los operadores tenían acceso tanto a la información de la serie como a sinopsis, tráilers, detalles del elenco y otros recursos promocionales.<br><br>A su vez, este micrositio fue una herramienta valiosa que también les permitió promover la serie entre sus usuarios finales de manera efectiva, y así, no sólo alcanzaron a un sólo tipo de audiencia.",
+        "Img": "Hipnotizador.webp",
+        "AltImg": "Lanzamiento regional de la serie \"El Hipnotizador\"",
+        "Category": "Creatividad / Producción / Programación",
+        "Location": "Américas",
+        "Market": "B2B & B2C",
+        "Client": "HBO",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/HBO.webp",
+        "MediasFile": [{
+          "Name": "HBO",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Hipnotizador.webp",
+          "Type": "Img",
+          "AltImg": "\"The Hypnotist\" Regional Launch"
+        }]
+      },
+      {
+        "Priority": 2,
+        "MetaDescription": "Portafolio de Nuwinds - Apple: Herramienta interactiva para estaciones de trabajo personalizadas. Opciones e insights para impulsar ventas en Norteamérica.",
+        "Name": "Configurador web de Apple para empresas y hogares",
+        "NameUrl": "ConfiguradorWebDeAppleParaEmpresasyHogares",
+        "Title": "Configurador web de Apple",
+        "Info": "Diseñamos y desarrollamos un configurador web de Apple para empresas y hogares como parte de su estrategia de marketing para brindar una herramienta que permitiera personalizar fácilmente estaciones de trabajo remoto o entornos empresariales.<br><br>A través de este configurador web, los usuarios pudieron explorar las diferentes funciones disponibles y sus principales características con el fin de tomar las decisiones de compra más adecuadas y rentables para sus necesidades.<br><br>Nuestra meta consistía en crear una experiencia de usuario fácil y atractiva que simplificará el proceso de personalización de estaciones de trabajo, y que al mismo tiempo, demostrará cómo los productos Apple pueden optimizar la productividad, la comodidad y la eficiencia tanto en hogares como en entornos empresariales.",
+        "Img": "Apple.webp",
+        "AltImg": "Configurador web de Apple para empresas y hogares",
+        "Category": "Creatividad / Programación",
+        "Location": "Norteamérica",
+        "Market": "B2B & B2C",
+        "Client": "Insight / Apple",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/InsightApple.webp",
+        "MediasFile": [{
+          "Name": "Apple01",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Apple02",
+          "Type": "Video",
+          "AltImg": ""
+        }]
+      },
+      {
+        "Priority": 3,
+        "MetaDescription": "Portafolio de Nuwinds - Universal Music: Creamos un mundo de realidad virtual (VR) para mejorar la experiencia en el lanzamiento del álbum \"Fantasía\".",
+        "Name": "Lanzamiento Universal Music - Experiencia de RV 360°",
+        "NameUrl": "LanzamientoUniversalMusicExperienciaDeRV360°",
+        "Title": "Universal Music - Experiencia de RV 360°",
+        "Info": "En colaboración con Universal Music, realizamos la producción de un vídeo con tecnología de realidad virtual 360° para el famoso cantante colombiano Sebastián Yatra. Nuestro equipo se encargó de todo el proceso, desde el concepto creativo hasta la postproducción, garantizando una experiencia inmersiva memorable para su audiencia de origen latino en YouTube.<br><br>Aprovechando esta tecnología, nos propusimos transportar a los fans de Sebastián a una experiencia inolvidable. Aunque el vídeo era accesible desde cualquier dispositivo, aquellos con gafas de realidad virtual podían sumergirse por completo en un mundo dinámico y lleno de vida.<br><br>Esta estrategia innovadora nos permitió incrementar la interacción de su audiencia mientras promocionaba su último álbum, \"Fantasía\". Con nuestro vídeo de realidad virtual en 360°, la audiencia se embarcó en un viaje lleno de colores que complementaba a la perfección la esencia del álbum.<br><br>Así como Universal, tú también puedes redefinir la narrativa visual de tu marca con tecnología de vanguardia que la eleven a nuevas dimensiones comunicativas.",
+        "Img": "Universal.webp",
+        "AltImg": "Lanzamiento Universal Music - Experiencia de RV 360°",
+        "Category": "Creatividad / Programación / XR",
+        "Location": "Americas",
+        "Market": "B2C",
+        "Client": "Universal Music",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Universal.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 4,
+        "MetaDescription": "Portafolio de Nuwinds - FIU: Experiencia inmersiva sobre los sobrevivientes del Holocausto para inspirar empatía y cambio social en la comunidad FIU.",
+        "Name": "Storytelling para el cambio social - FIU",
+        "NameUrl": "StorytellingParaElCambioSocial-FIU",
+        "Title": "Storytelling para el cambio social - FIU",
+        "Info": "En colaboración con la Universidad Internacional de Florida, nos embarcamos en un proyecto innovador destinado a aprovechar el poder del storytelling y de la realidad virtual (RV) para enseñar a la comunidad estudiantil los testimonios conmovedores de sobrevivientes del Holocausto.<br><br>En este viaje inmersivo, los estudiantes se sumergieron en una experiencia auditiva tridimendional que les permitió vivir las historias del Holocausto mientras estas estaban siendo narradas por sus protagonistas.<br><br>Gracias a esta actividad, los participantes tuvieron la oportunidad de comprender de mejor manera las vivencias de ocho sobrevivientes del Holocausto, y adicionalmente, de grabar y enviar mensajes de voz para ellos, fomentando así un sentido de empatía a través del tiempo y el espacio.<br><br>Este proyecto es un ejemplar testimonio de cómo las tecnologías de realidad extendida (XR) pueden emplearse no sólo con fines educativos sino también como un catalizador para el cambio social.",
+        "Img": "FIU.webp",
+        "AltImg": "Storytelling para el cambio social - FIU",
+        "Category": "Creatividad / Programación / XR",
+        "Location": "Norteamérica",
+        "Market": "B2C",
+        "Client": "Florida International University (FIU)",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/FIU.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 5,
+        "MetaDescription": "Portafolio de Nuwinds - AR Vape: Filtro AR en Snapchat para educar a los adolescentes sobre los riesgos del vapeo. Fusionamos juego y aprendizaje.",
+        "Name": "Filtro de realidad aumentada (RA) en contra del VAPE",
+        "NameUrl": "FiltroDeRealidadAumentada(RA)EnContraDelVAPE",
+        "Title": "Filtro de realidad aumentada (RA) en contra del VAPE",
+        "Info": "Para esta campaña, diseñamos un filtro de realidad aumentada (RA) para Snapchat el cual ofreciera una experiencia de gamificación para la empresa The Facts Now.<br><br>El objetivo primordial de este proyecto era educar y crear conciencia entre los adolescentes sobre los riesgos de los cigarrillos electrónicos con el fin de prevenir la adicción y demás efectos secundarios.<br><br>Desde la fase conceptual hasta el lanzamiento, desarrollamos una experiencia interactiva y lúdica en la cual los usuarios pudieran ensamblar paso a paso un vape 3D utilizando diversos ingredientes y sustancias peligrosas.<br><br>A medida que avanzaban, ellos iban descubriendo químicos ocultos con potencial nocivo. Al terminar de jugar, los usuarios tenían la posibilidad de grabar y compartir un simbólico \"trofeo\" que mostraba los daños ocasionados al usuario con el fin de generar conciencia sobre los peligros de su consumo.",
+        "Img": "Golin.webp",
+        "AltImg": "Filtro de realidad aumentada (RA) en contra del VAPE",
+        "Category": "Creatividad / Programación / XR",
+        "Location": "Norteamérica",
+        "Market": "B2C",
+        "Client": "The Facts Now",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/TheFactsNow.webp",
+        "MediasFile": [{
+          "Name": "Golin",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Golin.webp",
+          "Type": "Img",
+          "AltImg": "AR Vape Filter & Engaging Experience"
+        }]
+      },
+      {
+        "Priority": 6,
+        "MetaDescription": "Portafolio de Nuwinds - Tango Marine: Diseño web premium para yates y mejora en la presencia digital para el sector marítimo en Norteamérica.",
+        "Name": "Página web de Tango Marine",
+        "NameUrl": "PáginaWebDeTangoMarine",
+        "Title": "Página web de Tango Marine",
+        "Info": "Mediante una exhaustiva investigación y un análisis de benchmarking dentro del nicho de la operación y gestión de yates, tuvimos la oportunidad de crear un sitio web limpio, fresco y dinámico para la empresa Tango Marine de este sector.<br><br>Cada detalle fue meticulosamente diseñado para mejorar la presencia digital de la marca teniendo en cuenta nuestra experiencia previa y el estilo comunicativo que ya manejaba la empresa.<br><br>Adicionalmente a esto, entregamos otros activos digitales para que Tango Marine pudiera usarlos en otras herramientas digitales como sus redes sociales.",
+        "Img": "TangoMarine.webp",
+        "AltImg": "Página web de Tango Marine",
+        "Category": "Creatividad / Programación",
+        "Location": "Norteamérica",
+        "Market": "B2C",
+        "Client": "Tango Marine",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/TangoMarine.webp",
+        "MediasFile": [{
+          "Name": "TangoMarine",
+          "Type": "Video",
+          "AltImg": ""
+        }]
+      },
+      {
+        "Priority": 7,
+        "MetaDescription": "Portafolio de Nuwinds - Epiroc: Fortalecimos su alcance B2B con contenido personalizado y soluciones digitales para posicionar a Epiroc como líder en LATAM.",
+        "Name": "Epiroc - Campaña de email marketing",
+        "NameUrl": "Epiroc-CampañaDeEmailMarketing",
+        "Title": "Epiroc - Campaña de email marketing",
+        "Info": "En un esfuerzo dirigido para fortalecer la presencia digital de EPIROC en el mercado latinoamericano, nuestro equipo se embarcó en la misión de combinar servicios de estrategia con diseño creativo y programación avanzada para crear una campaña de marketing asertiva.<br/><br/>El enfoque principal era desarrollar una narrativa que resonara con el mercado objetivo, capturando ideas esenciales y ofreciendo experiencias digitales que promovieran un compromiso significativo con la marca en la región.<br/><br/>Para esto, la estrategia se basó en cuatro pilares fundamentales:<br/><br/><ul><li>Encuestas personalizadas</li><li>Campañas de email marketing</li><li>Landing pages optimizadas</li><li>Estrategia Digital Customer Journey</li></ul>El resultado de esta campaña fue un aumento significativo en el compromiso de la audiencia y en la consolidación de la marca, posicionándose como líder referente en el sector B2B del mercado latinoamericano ante su público objetivo.",
+        "Img": "Epiroc.webp",
+        "AltImg": "Epiroc - Campaña de email marketing",
+        "Category": "Creatividad / Programación / Estrategia",
+        "Location": "Latinoamérica",
+        "Market": "B2B",
+        "Client": "Epiroc",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Epiroc.webp",
+        "MediasFile": [{
+          "Name": "Epiroc",
+          "Type": "Video",
+          "AltImg": ""
+        }, {
+          "Name": "Epiroc.webp",
+          "Type": "Img",
+          "AltImg": "Epiroc"
+        }]
+      },
+      {
+        "Priority": 8,
+        "MetaDescription": "Portafolio de Nuwinds - Lexar en Brasil: Potenciamos su marca con estrategias de PR y redes sociales para impulsar el compromiso de su audiencia B2C.",
+        "Name": "Estrategias digitales y de prensa para Lexar",
+        "NameUrl": "EstrategiasDigitalesyDePrensaParaLexar",
+        "Title": "Estrategias digitales y de prensa para Lexar",
+        "Info": "Mediante la excelente gestión de redes sociales y nuestra experiencia en relaciones públicas, hemos desarrollado una fórmula ganadora que ha ampliado y fortalecido la presencia de la marca Lexar en la mente de su audiencia en Brasil.<br><br>Desde cero, hemos empezado a construir una fuerte narrativa e identidad de marca digital que ha permitido un incremento en las interacciones con sus usuarios y el mantenimiento de una imagen fresca y actualizada.",
+        "Img": "Lexar.webp",
+        "AltImg": "Estrategias digitales y de prensa para Lexar",
+        "Category": "Redes Sociales / Relaciones Públicas",
+        "Location": "Brasil",
+        "Market": "B2C / B2B",
+        "Client": "Lexar",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Lexar.webp",
+        "MediasFile": []
+      },
+      {
+        "Priority": 9,
+        "MetaDescription": "Descubre cómo transformamos la estrategia de comunicación interna de Talkmore, impulsando la eficiencia y coherencia a través de identidades visuales renovadas.",
+        "Name": "Estrategia de comunicaciones internas de Talkmore",
+        "NameUrl": "EstrategiaDeComunicacionesInternasDeTalkmore",
+        "Title": "Estrategia de comunicaciones internas",
+        "Info": "Para este proyecto con Talkmore, diseñamos identidades visuales que se actualizan mensualmente, ajustándose de forma precisa a la estrategia de comunicación interna establecida por la empresa.<br/><br/>De hecho, esta acción ofreció herramientas visuales claras que optimizaron la comunicación interna de toda la organización, en particular aquella que estaba orientada a los equipos de ventas.<br/><br/>Nuestra profunda comprensión sobre la esencia de la marca y su funcionamiento interno fue crucial para mejorar la asertividad de los diseños y comunicados. Este conocimiento nos permitió diseñar conceptos visuales que, además de ser atractivos, fueran altamente funcionales y efectivos en la consecución de los objetivos propuestos.",
+        "Img": "Talkmore01.webp",
+        "AltImg": "Talkmore",
+        "Category": "Estrategia / Creatividad",
+        "Location": "USA",
+        "Market": "B2B",
+        "Client": "Talkmore",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Talkmore.webp",
+        "MediasFile": [{
+          "Name": "Talkmore01.webp",
+          "Type": "Img",
+          "AltImg": "Talkmore"
+        }, {
+          "Name": "Talkmore02.webp",
+          "Type": "Img",
+          "AltImg": "Talkmore"
+        }]
+      },
+      {
+        "Priority": 10,
+        "MetaDescription": "Descubre cómo transformamos eventos corporativos en experiencias inolvidables que fortalecen lazos y abren caminos hacia el éxito inigualable.",
+        "Name": "Organización de eventos corporativos: Un año de éxitos",
+        "NameUrl": "UnforgettableMomentstEs",
+        "Title": "Gestión de eventos",
+        "Info": "Mediante nuestro servicio especializado en gestión de eventos, transformamos cada uno de sus encuentros en ocasiones inolvidables, generando una conexión más profunda y significativa con sus clientes. Organizamos desde lanzamientos de productos hasta activaciones de marca que capturan la atención del público presente.<br/><br/>Nuestra amplia experiencia nos respalda para asegurar que cada interacción con sus clientes no solo sea efectiva, sino que también deje una impresión duradera. En resumen, nos dedicamos a construir eventos que fortalezcan los lazos entre su marca y su audiencia, facilitando el camino hacia un éxito ilimitado.",
+        "Img": "Events.webp",
+        "AltImg": "Gestión de eventos",
+        "Category": "Gestión de eventos",
+        "Location": "USA / Latin America",
+        "Market": "B2B / B2C",
+        "Client": "Multi-marcas",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Nuwinds.webp",
+        "MediasFile": [{
+          "Name": "Events01.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events02.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events03.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }, {
+          "Name": "Events04.webp",
+          "Type": "Img",
+          "AltImg": "Unforgettable moments"
+        }]
+      },
+      {
+        "Priority": 11,
+        "MetaDescription": "Descubre cómo revolucionamos las estrategias de marketing de Intel con campañas 'Marketing in a Box', fortaleciendo vínculos y fomentando el éxito mutuo.",
+        "Name": "Campañas de Marketing in a Box con Intel",
+        "NameUrl": "CampañasDeMarketingInABoxConIntel",
+        "Title": "Campañas de Marketing in a Box con Intel",
+        "Info": "Intel, la renombrada empresa líder en tecnología, nos confió la misión de crear y ejecutar campañas de \"Marketing in a Box\" dirigidas a todos sus distribuidores en el continente americano.<br/><br/>El objetivo era centralizar, simplificar y homogeneizar las estrategias de marketing para todos sus socios, garantizando una comunicación coherente y eficiente en cada país y en distintos idiomas.<br/><br/>Cada campaña de \"Marketing in a Box\" contenía los siguientes activos digitales:<ul><li>Concepto creativo</li><li>Hoja de ruta para el \"Customer Journey\"</li><li>Sitio web específico para la campaña (landing page)</li><li>Templates para campañas de email marketing que fomentarán las relaciones con los clientes potenciales</li><li>Banners para sitios web</li><li>Contenido para redes sociales y pauta digital</li><li>Flexibilidad de co-branding</li></ul>Este proyecto fue más allá de simplemente proveer herramientas de marketing; se convirtió en un puente que consolidó y fortaleció las relaciones entre Intel y sus socios en el continente americano, creando un entorno donde las estrategias estaban alineadas hacia un objetivo común para potenciar las oportunidades de éxito mutuo.",
+        "Img": "Intel01.webp",
+        "AltImg": "Campañas de Marketing in a Box con Intel",
+        "Category": "Creatividad / Programación",
+        "Location": "Américas",
+        "Market": "B2B",
+        "Client": "Intel",
+        "ClientLogo": "assets/img/Portfolio/ClientsLogo/Intel.webp",
+        "MediasFile": [{
+          "Name": "Intel01.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }, {
+          "Name": "Intel02.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }, {
+          "Name": "Intel03.webp",
+          "Type": "Img",
+          "AltImg": "Intel Marketing in a Box"
+        }]
+      }
+    ]
+  },
+  "Testimonials": {
+    "en": [{
+        "Photo": "assets/img/Testimonial/Logos-09.webp",
+        "Copy": "It was a pleasure working with Nuwinds. They’re fast, responsive, and reliable. Nuwinds assisted us throughout the entire creative process and made our idea become a (virtual) reality!",
+        "Name": "Universal Music",
+        "JobTitle": ""
+      },
+      {
+        "Photo": "assets/img/Testimonial/Logos-15.webp",
+        "Copy": "Lorem ipsum  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.4",
+        "Name": "Insight / Apple",
+        "JobTitle": ""
+      },
+      {
+        "Photo": "assets/img/Testimonial/Logos-07.webp",
+        "Copy": "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.9",
+        "Name": "HBO",
+        "JobTitle": ""
+      }
+    ],
+    "es": [{
+        "Photo": "assets/img/Testimonial/Logos-09.webp",
+        "Copy": "Fue un placer trabajar con Nuwinds. ¡Fueron rápidos,receptivos y confiables. Nos ayudaron durante todo el proceso creativo e hicieron que nuestra idea se convirtiera en una realidad (virtual)!",
+        "Name": "Universal Music",
+        "JobTitle": ""
+      },
+      {
+        "Photo": "assets/img/Testimonial/Logos-15.webp",
+        "Copy": "Lorem ipsum  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.2",
+        "Name": "Insight / Apple",
+        "JobTitle": ""
+      },
+      {
+        "Photo": "assets/img/Testimonial/Logos-07.webp",
+        "Copy": "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.3",
+        "Name": "HBO",
+        "JobTitle": ""
+      }
+    ]
+  }
+}

@@ -3,7 +3,19 @@ import HeaderButton from "./HeaderButton.astro";
 import LanguageButton from "./LanguageButton.astro";
 import { Image } from "astro:assets";
 import { HeaderLogo } from "../util/SrcElements";
-import { WebSite } from "../util/Urls";
+import { WebSite, GetLang, GetLangUrl } from "../util/Urls";
+const { pathname } = Astro.url;
+
+// console.log(pathname);
+const langUrl = GetLangUrl(pathname);
+const lang = GetLang(pathname);
+
+import translation_EN from "../../public/locales/en/translation.json";
+import translation_ES from "../../public/locales/es/translation.json";
+
+const menuNames =
+  lang === "en" ? translation_EN.pagesMenu : translation_ES.pagesMenu;
+// console.log(menuNames);
 ---
 
 <header class="absolute top-0 left-0 w-full">
@@ -14,7 +26,7 @@ import { WebSite } from "../util/Urls";
     class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:p-6"
     aria-label="Global"
   >
-    <a href={WebSite()}>
+    <a href={langUrl.replace(".", "")}>
       <Image
         class="w-auto max-h-[55px]"
         src={HeaderLogo()}
@@ -25,21 +37,21 @@ import { WebSite } from "../util/Urls";
 
     <!-- Pantalla gandes -->
     <div class="hidden lg:flex lg:gap-x-6">
-      <HeaderButton href="/">HOME</HeaderButton>
+      <HeaderButton href={langUrl}>{menuNames[0].toUpperCase()}</HeaderButton>
 
-      <HeaderButton href="/">ABOUT</HeaderButton>
+      <HeaderButton href="/">{menuNames[1].toUpperCase()}</HeaderButton>
 
-      <HeaderButton href="/">SERVICES</HeaderButton>
+      <HeaderButton href="/">{menuNames[2].toUpperCase()}</HeaderButton>
 
-      <HeaderButton href="/">PORTFOLIO</HeaderButton>
+      <HeaderButton href="/">{menuNames[3].toUpperCase()}</HeaderButton>
 
-      <HeaderButton href="/">CONTACT</HeaderButton>
+      <HeaderButton href="/">{menuNames[4].toUpperCase()}</HeaderButton>
     </div>
 
     <!-- Celulares -->
     <div class="flex gap-5 lg:hidden">
-      <LanguageButton language="EN" />
-      <LanguageButton language="ES" />
+      <LanguageButton id="LanguageButtonMobile_EN" language="EN" />
+      <LanguageButton id="LanguageButtonMobile_ES" language="ES" />
       <button
         id="ShowMenuButton"
         type="button"
@@ -82,8 +94,8 @@ import { WebSite } from "../util/Urls";
     <!-- Menu contact -->
     <div class="hidden lg:flex lg:gap-12">
       <div class="flex gap-3">
-        <LanguageButton language="EN" />
-        <LanguageButton language="ES" />
+        <LanguageButton id="LanguageButton_EN" language="EN" />
+        <LanguageButton id="LanguageButton_ES" language="ES" />
       </div>
       <button
         type="button"
@@ -186,11 +198,13 @@ import { WebSite } from "../util/Urls";
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="py-6 flex flex-col items-start">
-            <HeaderButton href="/">HOME</HeaderButton>
-            <HeaderButton href="/">ABOUT</HeaderButton>
-            <HeaderButton href="/">SERVICES</HeaderButton>
-            <HeaderButton href="/">PORTFOLIO</HeaderButton>
-            <HeaderButton href="/">CONTACT</HeaderButton>
+            <HeaderButton href={langUrl}>
+              {menuNames[0].toUpperCase()}
+            </HeaderButton>
+            <HeaderButton href="/">{menuNames[1].toUpperCase()}</HeaderButton>
+            <HeaderButton href="/">{menuNames[2].toUpperCase()}</HeaderButton>
+            <HeaderButton href="/">{menuNames[3].toUpperCase()}</HeaderButton>
+            <HeaderButton href="/">{menuNames[4].toUpperCase()}</HeaderButton>
           </div>
         </div>
       </div>
@@ -198,19 +212,28 @@ import { WebSite } from "../util/Urls";
   </div>
 </header>
 
-<script>
+<script define:vars={{pathname}}>
+  // const lang = GetLang(window.location.href);
+  console.log(window.location.href);
+  // console.log(`lang => ${lang}`);
+  console.log(`pathname => ${pathname}`);
   const showMenuButton = document.getElementById("ShowMenuButton");
   const closeMenuButton = document.getElementById("CloseMenuButton");
   const mobileMenu = document.getElementById("MobilMenu");
 
   showMenuButton?.addEventListener("click", ShowMenuClick);
   closeMenuButton?.addEventListener("click", CloseMenuClick);
+  mobileMenu?.classList.add("hidden");
 
   function ShowMenuClick() {
-    mobileMenu?.classList.remove("hidden");
+    console.log("ShowMenuClick");
+    mobileMenu?.classList.toggle("hidden");
   }
 
   function CloseMenuClick() {
-    mobileMenu?.classList.add("hidden");
+    console.log("CloseMenuClick");
+
+    mobileMenu?.classList.toggle("hidden");
+    // mobileMenu?.classList.toggle
   }
 </script>

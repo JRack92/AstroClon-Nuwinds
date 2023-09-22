@@ -1,4 +1,7 @@
 ---
+import i18next, { t } from "i18next";
+import { HeadHrefLangs } from "astro-i18next/components";
+
 import "normalize.css/normalize.css";
 import "../styles/styles.css";
 import Header from "../components/Header.astro";
@@ -15,7 +18,7 @@ const { title, description } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={i18next.language}>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -24,9 +27,10 @@ const { title, description } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>Nuwinds | {title}</title>
+    <HeadHrefLangs />
     <ViewTransitions />
   </head>
-  <body class=" min-h-screen scroll">
+  <body class="min-h-screen scroll">
     <Header />
     <main class="m-auto">
       <slot />

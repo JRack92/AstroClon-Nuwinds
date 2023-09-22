@@ -1,9 +1,29 @@
 ---
 interface Props {
+  id: string;
   language: string;
 }
 
-const { language } = Astro.props;
+const { language, id } = Astro.props;
+
+let languagePath = "";
+if (language.toLowerCase() === "en") {
+  languagePath = "./";
+} else {
+  languagePath = `./${language.toLowerCase()}`;
+}
 ---
 
-<a href="" class="text-white">{language}</a>
+<a
+  id=`${id}`
+  href=`${languagePath}`
+  lang={language.toLowerCase()}
+  hreflang={language.toLowerCase()}
+  class="text-white">{language}</a
+>
+
+<script define:vars={{ id }}>
+  const languajeButton = document.getElementById(id);
+  // console.log(window.location.href);
+  // console.log(languajeButton);
+</script>

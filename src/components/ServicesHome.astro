@@ -1,20 +1,29 @@
 ---
-import Cardlaunch from "./CardLaunch.astro";
-import { getLatestLaunches } from "../services/spacex";
+import ServiceCard from "./ServiceCard.astro";
+import { type Service, type FeaturedService } from "../types/api";
 
-const launches = await getLatestLaunches();
+interface Props {
+  listServices: Array<Service>;
+}
+
+const { listServices } = Astro.props;
 ---
 
-<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-  {
-    launches.map((launch) => (
-      <Cardlaunch
-        id={launch.id}
-        img={launch.links.patch.small}
-        details={launch.details}
-        flightNumber={launch.flight_number}
-        success={launch.success}
-      />
-    ))
-  }
-</div>
+<section class="py-20 px-4 flex flex-col gap-14">
+  <div>
+    <h3 class="text-white text-3xl font-semibold cs-primary_font">
+      Services we can help you with
+    </h3>
+  </div>
+  <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    {
+      listServices.map((service) => (
+        <ServiceCard
+          name={service.Name}
+          img={service.Img}
+          imgAlt={service.AltImg}
+        />
+      ))
+    }
+  </div>
+</section>

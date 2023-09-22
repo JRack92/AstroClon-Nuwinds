@@ -1,17 +1,26 @@
 ---
+import i18next, { t, changeLanguage } from "i18next";
+import { type Service, type FeaturedService } from "../types/api";
 import Layout from "../layouts/Layout.astro";
-
 import Hero from "../components/Hero.astro";
-import Services from "../components/ServicesHome.astro";
-import Portfolio from '../components/PortfolioHome.astro';
-import GeneralText from '../components/GeneralTextHome.astro';
-import Clients from '../components/ClientsHome.astro';
-import ApplyMeeting from '../components/ApplyMeeting.astro';
+import ServicesHome from "../components/ServicesHome.astro";
+import Portfolio from "../components/PortfolioHome.astro";
+import GeneralText from "../components/GeneralTextHome.astro";
+import Clients from "../components/ClientsHome.astro";
+import ApplyMeeting from "../components/ApplyMeeting.astro";
+
+changeLanguage("en");
 ---
 
-<Layout title="Home" description="">
-  <Hero />
-  <Services />
+<Layout title={t("home.PageTitle")} description={t("home.PageDescription")}>
+  <Hero
+    title={t("home.hero.title")}
+    subtitle={t("home.hero.subtitle")}
+    cta={t("home.hero.cta")}
+  />
+  <ServicesHome
+    listServices={t("service", { returnObjects: true }) as Array<Service>}
+  />
   <Portfolio />
   <GeneralText />
   <Clients />

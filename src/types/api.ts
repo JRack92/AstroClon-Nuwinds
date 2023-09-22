@@ -109,3 +109,21 @@ export enum Rocket {
   The5E9D0D95Eda69955F709D1Eb = "5e9d0d95eda69955f709d1eb",
   The5E9D0D95Eda69973A809D1Ec = "5e9d0d95eda69973a809d1ec",
 }
+
+export interface Service {
+  Name: string;
+  PageDescription: string;
+  Priority: number;
+  Info: string;
+  PageTitle: string;
+  Img: string;
+  AltImg: string;
+  FeaturedServices: FeaturedService[];
+  ListServicesTitle: string;
+  ListServices: string[];
+}
+
+export interface FeaturedService {
+  Title: string;
+  Info: string;
+}
