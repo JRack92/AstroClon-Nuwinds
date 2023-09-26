@@ -3,9 +3,13 @@ import i18next, { t, changeLanguage } from "i18next";
 import { type Service, type FeaturedService } from "../../types/api";
 import type { GetStaticPaths } from "astro";
 import Layout from "../../layouts/Layout.astro";
+import translation_EN from "../../../public/locales/en/translation.json";
+import translation_ES from "../../../public/locales/es/translation.json";
 
 changeLanguage("en");
 
+const homePath = i18next.language === "en" ? "/" : "/es";
+console.log(`language Services => ${i18next.language}`);
 //Genera los las archivos de las paginas con el ID de cada uno de los elementos
 export async function getStaticPaths() {
     const services = t("service", { returnObjects: true }) as Array<Service>;
@@ -16,8 +20,14 @@ export async function getStaticPaths() {
 const listServices = t("service", { returnObjects: true }) as Array<Service>;
 const { name } = Astro.params;
 let service;
+let indexService = 0;
+let nameService_EN = "";
+let nameService_ES = "";
 if (name) {
-    service = listServices.find((serviceTemp) => {
+    service = listServices.find((serviceTemp, index) => {
+        indexService = index;
+        nameService_EN = translation_EN.service[indexService].Name;
+        nameService_ES = translation_ES.service[indexService].Name;
         return serviceTemp.Name === name;
     });
 }
@@ -30,6 +40,22 @@ if (name) {
       src={`/img/Services/${service?.Img}`}
       alt={service?.AltImg}
     />
-    <h2 class="text-4xl text-white font-bold">{service?.Name}</h2>
+    <h2 class="text-4xl text-white font-bold">
+      {service?.Name} | Index {indexService}
+    </h2>
   </article>
 </Layout>
+
+<script define:vars={{ homePath, nameService_EN, nameService_ES }}>
+  const _langBtnMobile_EN = document.getElementById("LanguageButtonMobile_EN");
+  const _langBtnMobile_ES = document.getElementById("LanguageButtonMobile_ES");
+
+  const _langBtn_EN = document.getElementById("LanguageButton_EN");
+  const _langBtn_ES = document.getElementById("LanguageButton_ES");
+
+  _langBtnMobile_EN?.setAttribute("href", `/Services/${nameService_EN}`);
+  _langBtnMobile_ES?.setAttribute("href", `/es/Services/${nameService_ES}`);
+
+  _langBtn_EN?.setAttribute("href", `/Services/${nameService_EN}`);
+  _langBtn_ES?.setAttribute("href", `/es/Services/${nameService_ES}`);
+</script>

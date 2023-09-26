@@ -1,21 +1,22 @@
 ---
+import i18next from "i18next";
 import HeaderButton from "./HeaderButton.astro";
 import LanguageButton from "./LanguageButton.astro";
 import { Image } from "astro:assets";
 import { HeaderLogo } from "../util/SrcElements";
-import { WebSite, GetLang, GetLangUrl } from "../util/Urls";
-const { pathname } = Astro.url;
-
-// console.log(pathname);
-const langUrl = GetLangUrl(pathname);
-const lang = GetLang(pathname);
+import { WebSite } from "../util/Urls";
+// const { pathname } = Astro.url;
 
 import translation_EN from "../../public/locales/en/translation.json";
 import translation_ES from "../../public/locales/es/translation.json";
 
 const menuNames =
-  lang === "en" ? translation_EN.pagesMenu : translation_ES.pagesMenu;
-// console.log(menuNames);
+  i18next.language === "en"
+    ? translation_EN.pagesMenu
+    : translation_ES.pagesMenu;
+
+const homePath = i18next.language === "en" ? "/" : "/es";
+console.log(`language=> ${i18next.language}`);
 ---
 
 <header class="absolute top-0 left-0 w-full">
@@ -26,7 +27,7 @@ const menuNames =
     class="mx-auto flex max-w-7xl items-center justify-between p-3 lg:p-6"
     aria-label="Global"
   >
-    <a href={langUrl.replace(".", "")}>
+    <a class="HeaderLogo" href={homePath}>
       <Image
         class="w-auto max-h-[55px]"
         src={HeaderLogo()}
@@ -37,7 +38,7 @@ const menuNames =
 
     <!-- Pantalla gandes -->
     <div class="hidden lg:flex lg:gap-x-6">
-      <HeaderButton href={langUrl}>{menuNames[0].toUpperCase()}</HeaderButton>
+      <HeaderButton href={homePath}>{menuNames[0].toUpperCase()}</HeaderButton>
 
       <HeaderButton href="/">{menuNames[1].toUpperCase()}</HeaderButton>
 
@@ -198,7 +199,7 @@ const menuNames =
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="py-6 flex flex-col items-start">
-            <HeaderButton href={langUrl}>
+            <HeaderButton href={homePath}>
               {menuNames[0].toUpperCase()}
             </HeaderButton>
             <HeaderButton href="/">{menuNames[1].toUpperCase()}</HeaderButton>
@@ -212,11 +213,7 @@ const menuNames =
   </div>
 </header>
 
-<script define:vars={{pathname}}>
-  // const lang = GetLang(window.location.href);
-  console.log(window.location.href);
-  // console.log(`lang => ${lang}`);
-  console.log(`pathname => ${pathname}`);
+<script>
   const showMenuButton = document.getElementById("ShowMenuButton");
   const closeMenuButton = document.getElementById("CloseMenuButton");
   const mobileMenu = document.getElementById("MobilMenu");
@@ -232,8 +229,6 @@ const menuNames =
 
   function CloseMenuClick() {
     console.log("CloseMenuClick");
-
     mobileMenu?.classList.toggle("hidden");
-    // mobileMenu?.classList.toggle
   }
 </script>

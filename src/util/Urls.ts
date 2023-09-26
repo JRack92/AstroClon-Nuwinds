@@ -7,12 +7,12 @@ export function WebSite() {
 
 export function GetLang(url: string) {
   const lang = url.split("/");
-  console.log(`Lang Split => ${lang}`);
-  
+  // console.log(`GetLang => ${lang} || Count=> ${lang.length}`);
   return lang[1] === "" ? "en" : "es";
 }
 
 export function GetLangUrl(url: string) {
-  const lang = url.split("/")[1];
-  return lang === "" ? "./" : "./es";
+  const lang = url.split("/");
+  // console.log(`GetLangUrl => ${lang} || Count=> ${lang.length}`);
+  return lang[1] === "" ? "./" : "./es";
 }
