@@ -15,7 +15,7 @@
             "Priority": 1,
             "Info": "Analizamos los datos de tu negocio para crear estrategias personalizadas que aumenten la visibilidad de tu marca hacia tu público objetivo. Además, contamos con un enfoque orientado a los resultados para  alcanzar el máximo retorno de tu inversión.",
             "PageTitle": "Servicio de gestión estratégica",
-            "Img": "Strategy.jpg",
+            "Img": "Strategy.webp",
             "AltImg": "Proceso estratégico",
             "FeaturedServices": [{
                     "Title": "Análisis estratégico",
@@ -50,7 +50,7 @@
             "Priority": 2,
             "Info": "Diseñamos contenidos persuasivos y de vanguardia para campañas de marketing que cautiven a tu audiencia de forma duradera.",
             "PageTitle": "Servicio de gestión creativa",
-            "Img": "Creative.jpg",
+            "Img": "Creative.webp",
             "AltImg": "Creative Imagen",
             "FeaturedServices": [{
                     "Title": "Desarrollo creativo de marcas",
@@ -85,7 +85,7 @@
             "Priority": 3,
             "Info": "Optimizamos campañas publicitarias que alcancen a tu público objetivo y mejoren el reconocimiento de tu marca. A través de una segmentación precisa y mensajes persuasivos, logramos un máximo impacto.",
             "PageTitle": "Servicio de publicidad",
-            "Img": "Advertising.jpg",
+            "Img": "Advertising.webp",
             "AltImg": "Advertising Imagen",
             "FeaturedServices": [{
                     "Title": "Publicidad estratégica",
@@ -119,7 +119,7 @@
             "Priority": 4,
             "Info": "Planificamos la adquisición de espacios publicitarios en medios que posibilitan una conexión efectiva con tu público objetivo. Además, ejecutamos una distribución optimizada de los anuncios y llevamos a cabo un análisis y seguimiento exhaustivo de su desempeño.",
             "PageTitle": "Servicio de gestión de medios",
-            "Img": "Media.jpg",
+            "Img": "Media.webp",
             "AltImg": "Media Imagen",
             "FeaturedServices": [{
                     "Title": "Publicidad dirigida",
@@ -156,7 +156,7 @@
             "Priority": 5,
             "Info": "Creamos experiencias fascinantes usando la realidad extendida (XR) para dar rienda suelta al potencial de tu marca. Satisfacemos tus necesidades ya que proporcionamos soluciones integrales de producción.",
             "PageTitle": "Servicio de producción",
-            "Img": "Production.jpg",
+            "Img": "Production.webp",
             "AltImg": "Production Imagen",
             "FeaturedServices": [{
                     "Title": "Marketing experiencial",
@@ -188,7 +188,7 @@
             "Priority": 6,
             "Info": "Desarrollamos servicios de programación especializada para crear y optimizar tus activos digitales. Esto incluye la creación de sitios web personalizados, integraciones y soluciones robustas que te permitan alcanzar los objetivos de marketing propuestos.",
             "PageTitle": "Servicio de programación",
-            "Img": "Coding.jpg",
+            "Img": "Coding.webp",
             "AltImg": "Coding Imagen",
             "FeaturedServices": [{
                     "Title": "Expertos en desarrollo digital",
@@ -224,7 +224,7 @@
             "Priority": 7,
             "Info": "Desde el manejo de medios hasta la gestión de la reputación y narrativa de marca, fortalecemos la percepción de tu audiencia  y la credibilidad de tu negocio a través de soluciones estratégicas a tu medida.",
             "PageTitle": "Servicio de gestión en relaciones públicas",
-            "Img": "PublicRelations.jpg",
+            "Img": "PublicRelations.webp",
             "AltImg": "PublicRelations Imagen",
             "FeaturedServices": [{
                     "Title": "Marketing de influencers",
@@ -258,7 +258,7 @@
             "Priority": 8,
             "Info": "Producimos eventos inolvidables mediante una planificación meticulosa, coordinación creativa y ejecución precisa. Convertimos tu visión en realidad, asegurando una ejecución impecable para ofrecer experiencias memorables.",
             "PageTitle": "Servicio de gestión de eventos",
-            "Img": "Events.jpg",
+            "Img": "Events.webp",
             "AltImg": "Events Imagen",
             "FeaturedServices": [{
                     "Title": "Planificación, búsqueda y ejecución",

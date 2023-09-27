@@ -15,7 +15,7 @@
             "Priority": 1,
             "Info": "Tailored, data-driven strategies to boost your business visibility and engage target audiences. Results-focused approach for optimal ROI.",
             "PageTitle": "Strategy Process",
-            "Img": "Strategy.jpg",
+            "Img": "Strategy.webp",
             "AltImg": "Strategy Image",
             "FeaturedServices": [{
                     "Title": "Performance Optimization",
@@ -50,7 +50,7 @@
             "Priority": 2,
             "Info": "Cutting-edge design and compelling storytelling that captivate audiences. Unique visuals, content, and innovative campaigns that leave a lasting impression.",
             "PageTitle": "Creative Process",
-            "Img": "Creative.jpg",
+            "Img": "Creative.webp",
             "AltImg": "Creative Image",
             "FeaturedServices": [{
                     "Title": "Creative Brand Mastery",
@@ -85,7 +85,7 @@
             "Priority": 3,
             "Info": "Strategic ad campaigns to reach your target market and drive brand awareness. Compelling messaging, precise targeting, and optimization for maximum impact.",
             "PageTitle": "Advertising Process",
-            "Img": "Advertising.jpg",
+            "Img": "Advertising.webp",
             "AltImg": "Advertising Image",
             "FeaturedServices": [{
                     "Title": "Strategic Ad Mastery",
@@ -119,7 +119,7 @@
             "Priority": 4,
             "Info": "Comprehensive media planning and buying services to reach your audience across various channels. Optimized placements for effective ad distribution plus monitoring and analytics services for actionable insights.",
             "PageTitle": "Media Process",
-            "Img": "Media.jpg",
+            "Img": "Media.webp",
             "AltImg": "Media Image",
             "FeaturedServices": [{
                     "Title": "Targeted Advertising",
@@ -155,7 +155,7 @@
             "Priority": 5,
             "Info": "End-to-end production solutions for your marketing needs. From event management, crafting mesmerizing multimedia experiences, leveraging virtual reality, and creating engaging online content to unleash your brand's potential.",
             "PageTitle": "Production Process",
-            "Img": "Production.jpg",
+            "Img": "Production.webp",
             "AltImg": "Production Image",
             "FeaturedServices": [{
                     "Title": "Experiential Marketing Strategies",
@@ -188,7 +188,7 @@
             "Priority": 6,
             "Info": "Expert coding services to build and optimize your digital assets. Custom web development, seamless integration, and robust solutions to drive online success.",
             "PageTitle": "Coding Process",
-            "Img": "Coding.jpg",
+            "Img": "Coding.webp",
             "AltImg": "Coding Image",
             "FeaturedServices": [{
                     "Title": "Digital Development Mastery",
@@ -224,7 +224,7 @@
             "Priority": 7,
             "Info": "Strategic public relations solutions that shape your brand narrative. Media relations, reputation management, and impactful storytelling to enhance brand perception and build credibility.",
             "PageTitle": "PR Process",
-            "Img": "PublicRelations.jpg",
+            "Img": "PublicRelations.webp",
             "AltImg": "PublicRelations Image",
             "FeaturedServices": [{
                     "Title": "Influence Boost Strategies",
@@ -258,7 +258,7 @@
             "Priority": 8,
             "Info": "Crafting unforgettable events through meticulous planning, coordination, and creativity. We bring your vision to life, ensuring seamless execution and meaningful experiences.",
             "PageTitle": "Events Management process.",
-            "Img": "Events.jpg",
+            "Img": "Events.webp",
             "AltImg": "Events Image",
             "FeaturedServices": [{
                     "Title": "Planning, scouting and execution",

@@ -1,0 +1,15 @@
+---
+interface Pros {
+  title: string;
+  info: string;
+  svg?: string;
+}
+
+const { title, info, svg = "" } = Astro.props;
+---
+
+<div class="text-center">
+  <div class=""></div>
+  <h2 class="font-semibold text-2xl mb-5 textColorPrimary">{title}</h2>
+  <p class="font-normal text-base textColorPrimary opacity-75">{info}</p>
+</div>

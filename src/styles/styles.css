@@ -46,6 +46,16 @@ span {
     font-family: 'Open Sans', sans-serif;
 }
 
+.textColorPrimary
+{
+    color: var(--primary);
+}
+
+.textColorSecondary
+{
+    color: var(--secondary);
+}
+
 a:hover {
     text-decoration: none;
     color: var(--accent);
